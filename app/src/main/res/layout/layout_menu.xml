@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6DA0E7"
+     >
+
+    <LinearLayout
+        android:id="@+id/layout_header"
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:paddingLeft="50dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        >
+        <com.tianjin.MobileInspection.customview.CircleImg
+            android:id="@+id/ci_user_header"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/test_head"/>
+
+        <TextView
+            android:id="@+id/tv_login_user"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:text="admin"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_main_foot"
+        android:layout_alignParentBottom="true"
+        style="@style/set_up_userinfo">
+
+        <LinearLayout
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:gravity="center">
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/out"/>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/tv_zhuxiao"
+            style="@style/set_up_userinfo_text"
+            android:text="注销"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/layout_bady"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/layout_header"
+        android:layout_above="@id/linear_main_foot"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/linear_setup"
+            style="@style/set_up_userinfo">
+
+            <LinearLayout
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:gravity="center">
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/set"/>
+            </LinearLayout>
+            <TextView
+                android:id="@+id/tv_user_love"
+                style="@style/set_up_userinfo_text"
+                android:text="设置"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linear_hidden"
+            style="@style/set_up_userinfo">
+
+            <LinearLayout
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:gravity="center">
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@mipmap/ic_action_soundcloud"/>
+            </LinearLayout>
+            <TextView
+                android:id="@+id/tv_hidden"
+                style="@style/set_up_userinfo_text"
+                android:text="隐患列表"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linear_clear"
+            style="@style/set_up_userinfo">
+
+            <LinearLayout
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:gravity="center">
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@mipmap/ic_action_paste"/>
+            </LinearLayout>
+            <TextView
+                android:id="@+id/tv_user_clear"
+                style="@style/set_up_userinfo_text"
+                android:text="清理缓存"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

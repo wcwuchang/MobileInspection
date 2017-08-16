@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:background="#33000000"
+        android:padding="5dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="请填写结论性意见"
+            android:gravity="center"
+            />
+
+        <TextView
+            style="@style/line_horizontal" />
+
+        <EditText
+            android:id="@+id/edt_observation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="120dp"
+            android:background="#fff"/>
+
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+            <Button
+                android:id="@+id/btn_cancel"
+                android:layout_width="0dp"
+                android:layout_weight="1.0"
+                android:layout_height="40dp"
+                android:text="取消"
+                android:textColor="#fff"
+                android:background="@color/VFFB236"
+                android:textSize="18dp" />
+            <TextView
+                android:layout_width="5dp"
+                android:layout_height="match_parent" />
+
+            <Button
+                android:id="@+id/btn_commit"
+                android:layout_width="0dp"
+                android:layout_weight="1.0"
+                android:layout_height="40dp"
+                android:text="确定"
+                android:textSize="18dp"
+                android:textColor="#fff"
+                android:background="@color/step_a"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

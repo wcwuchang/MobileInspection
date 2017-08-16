@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical">
+
+    <LinearLayout style="@style/activity_title">
+
+        <include
+            style="@style/activity_title_include"
+            layout="@layout/layout_activity_title" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/layout_background">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <LinearLayout
+                style="@style/hidden_trouble_layout">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.0"
+                    android:gravity="center_vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="紧急情况"
+                        android:layout_marginRight="5dp"/>
+                    <TextView
+                        android:id="@+id/tx_emergency_type"
+                        style="@style/hidden_spinner">
+
+                    </TextView>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.0"
+                    android:gravity="center_vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="设施类别"
+                        android:layout_marginRight="5dp"/>
+                    <TextView
+                        android:id="@+id/tx_hidden_type"
+                        style="@style/hidden_spinner">
+
+                    </TextView>
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView style="@style/line_horizontal" />
+
+            <LinearLayout
+                style="@style/hidden_trouble_layout">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.0"
+                    android:gravity="center_vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="设施名称"
+                        android:layout_marginRight="5dp"/>
+                    <TextView
+                        android:id="@+id/tx_hidden_name"
+                        style="@style/hidden_spinner">
+
+                    </TextView>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.0"
+                    android:gravity="center_vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="病  害  库"
+                        android:layout_marginRight="5dp"/>
+                    <TextView
+                        android:id="@+id/tx_hidden_stock"
+                        style="@style/hidden_spinner">
+
+                    </TextView>
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView style="@style/line_horizontal" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#fff">
+
+                <EditText
+                    android:id="@+id/edt_hidden_trouble_detail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="60dp"
+                    android:background="#fff"
+                    android:gravity="left|top"
+                    android:paddingLeft="20dp"
+                    android:layout_marginBottom="5dp"
+                    android:focusable="false"
+                    />
+
+                <com.tianjin.MobileInspection.customview.NobarGridView
+                    android:id="@+id/gv_chose_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    android:clipToPadding="false"
+                    android:horizontalSpacing="@dimen/mis_space_size"
+                    android:numColumns="4"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:verticalSpacing="@dimen/mis_space_size" />
+            </LinearLayout>
+            <LinearLayout
+                android:visibility="gone"
+                android:id="@+id/linear_hidden_trouble_num"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView style="@style/line_horizontal"/>
+
+                <LinearLayout style="@style/hidden_trouble_layout"
+                    >
+
+                    <RelativeLayout
+                        android:id="@+id/relat_hidden_type_num"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingRight="10dp">
+
+                        <TextView
+                            android:id="@+id/tv_yh_detail_name"
+                            style="@style/hidden_trouble_layout_text_ti"
+                            android:text="" />
+
+                        <TextView
+                            android:id="@+id/tv_yh_detail_unit"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginRight="5dp"
+                            android:text=""
+                            android:gravity="center"
+                            />
+
+                        <EditText
+                            android:id="@+id/edt_yh_detail_size"
+                            style="@style/hidden_trouble_layout_text_ti"
+                            android:layout_width="match_parent"
+                            android:layout_marginRight="65dp"
+                            android:layout_toLeftOf="@id/tv_yh_detail_unit"
+                            android:layout_toRightOf="@id/tv_yh_detail_name"
+                            android:hint="输入具体数值"
+                            android:background="#fff"
+                            android:inputType="numberDecimal"
+                            android:textColor="@color/listview_item_textview333" />
+
+                    </RelativeLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+            <TextView style="@style/line_horizontal" />
+
+            <LinearLayout style="@style/hidden_trouble_layout">
+
+                <RelativeLayout
+                    android:id="@+id/relat_hidden_chose_contact"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingRight="10dp">
+
+                    <TextView
+                        android:id="@+id/tv_called"
+                        style="@style/hidden_trouble_layout_text_ti"
+                        android:text="巡  检  人" />
+
+                    <ImageView
+                        android:id="@+id/iv_peple"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentRight="true"
+                        android:src="@drawable/list_ico_peple" />
+
+                    <TextView
+                        android:id="@+id/tv_hidden_trouble_contact"
+                        style="@style/hidden_trouble_layout_text_ti"
+                        android:layout_width="match_parent"
+                        android:layout_toLeftOf="@id/iv_peple"
+                        android:layout_toRightOf="@id/tv_called"
+                        android:textColor="@color/listview_item_textview333" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <TextView style="@style/line_horizontal" />
+
+            <LinearLayout style="@style/hidden_trouble_layout">
+
+                <RelativeLayout
+                    android:id="@+id/relat_hidden_chose_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingRight="10dp">
+
+                    <TextView
+                        android:id="@+id/tv_date"
+                        style="@style/hidden_trouble_layout_text_ti"
+                        android:text="日        期" />
+
+                    <ImageView
+                        android:id="@+id/iv_date"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentRight="true"
+                        android:src="@drawable/list_ico_li_down" />
+
+                    <TextView
+                        android:id="@+id/tv_hidden_trouble_date"
+                        style="@style/hidden_trouble_layout_text_ti"
+                        android:layout_width="match_parent"
+                        android:layout_toLeftOf="@id/iv_date"
+                        android:layout_toRightOf="@id/tv_date"
+                        android:textColor="@color/listview_item_textview333" />
+
+                </RelativeLayout>
+            </LinearLayout>
+
+            <TextView style="@style/line_horizontal" />
+            <LinearLayout
+                android:id="@+id/linear_hidden_trouble_road"
+                style="@style/hidden_trouble_layout">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.0"
+                    android:gravity="center_vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="路        名"
+                        android:layout_marginRight="5dp"/>
+                    <TextView
+                        android:id="@+id/tx_road"
+                        style="@style/hidden_spinner">
+
+                    </TextView>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.0"
+                    android:gravity="center_vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="路  灯  号"
+                        android:layout_marginRight="5dp"/>
+                    <TextView
+                        android:id="@+id/tx_road_light"
+                        style="@style/hidden_spinner">
+
+                    </TextView>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView style="@style/line_horizontal" />
+
+            <LinearLayout
+                android:id="@+id/linear_hidden_trouble_location"
+                style="@style/hidden_trouble_layout">
+
+                <RelativeLayout
+                    android:id="@+id/relat_hidden_chose_location"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingRight="10dp">
+
+                    <TextView
+                        android:id="@+id/tv_loc"
+                        style="@style/hidden_trouble_layout_text_ti"
+                        android:text="隐患定位" />
+
+                    <ImageView
+                        android:id="@+id/iv_loc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="15dp"
+                        android:src="@drawable/go_to" />
+
+                    <TextView
+                        android:id="@+id/tv_hidden_trouble_location"
+                        style="@style/hidden_trouble_layout_text_ti"
+                        android:layout_width="match_parent"
+                        android:layout_toLeftOf="@id/iv_loc"
+                        android:layout_toRightOf="@id/tv_loc"
+                        android:textColor="@color/listview_item_textview333" />
+
+                </RelativeLayout>
+            </LinearLayout>
+
+            <TextView style="@style/line_horizontal" />
+
+            <LinearLayout
+                android:id="@+id/linear_hidden_type_list"
+                android:layout_marginBottom="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#fff">
+                <com.tianjin.MobileInspection.customview.ScrollListView
+                    android:id="@+id/lv_yihuan_maintenance_trouble"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scrollbars="none"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+    </RelativeLayout>
+</LinearLayout>

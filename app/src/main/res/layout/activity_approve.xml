@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout style="@style/activity_title">
+        <include
+            style="@style/activity_title_include"
+            layout="@layout/layout_activity_title" />
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/linear_approve"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:layout_alignParentBottom="true">
+            <TextView
+                android:id="@+id/tv_approve_1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.0"
+                android:text="紧急专项"
+                android:textSize="16sp"
+                android:textColor="#fff"
+                android:gravity="center"
+                android:background="@drawable/select_approve_urgent"/>
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/tv_approve_2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.0"
+                android:text="紧急专项"
+                android:textSize="16sp"
+                android:textColor="#fff"
+                android:gravity="center"
+                android:background="@drawable/select_approve_urgent"/>
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/tv_approve_3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.0"
+                android:text="日常维修"
+                android:textSize="16sp"
+                android:textColor="#fff"
+                android:gravity="center"
+                android:background="@drawable/select_approve_daily"/>
+            <TextView
+                android:id="@+id/tv_approve_4"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.0"
+                android:text="日常维修"
+                android:textSize="16sp"
+                android:textColor="#fff"
+                android:gravity="center"
+                android:background="@drawable/select_approve_daily"/>
+        </LinearLayout>
+
+        <ListView
+            android:layout_marginBottom="5dp"
+            android:id="@+id/lv_approve_down"
+            android:paddingTop="10dp"
+            android:layout_above="@id/linear_approve"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none"
+            android:divider="#00000000"
+            />
+
+    </RelativeLayout>
+
+</LinearLayout>

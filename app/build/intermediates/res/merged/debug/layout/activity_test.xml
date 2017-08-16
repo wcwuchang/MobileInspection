@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.tianjin.MobileInspection.customview.pullReflashView.PullToRefreshLayout
+        android:id="@+id/prelat_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <include layout="@layout/layout_refresh_head"></include>
+        <com.tianjin.MobileInspection.customview.pullReflashView.PullableListView
+            android:id="@+id/lv_pullreflash"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </com.tianjin.MobileInspection.customview.pullReflashView.PullableListView>
+
+        <include layout="@layout/layout_load_more"></include>
+    </com.tianjin.MobileInspection.customview.pullReflashView.PullToRefreshLayout>
+
+</LinearLayout>

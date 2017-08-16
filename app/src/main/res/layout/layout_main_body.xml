@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#42ACFB"
+        android:orientation="vertical">
+        <!--开始巡检-->
+        <LinearLayout
+            android:layout_marginTop="25dp"
+            android:id="@+id/main_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2.0"
+                android:background="#42ACFB">
+                <LinearLayout
+                    android:id="@+id/linear_start_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+                    <TextView
+                        android:id="@+id/tv_start"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="开始巡检"
+                        style="@style/IndexOptionUp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:layout_above="@id/linear_start_tv">
+                    <LinearLayout
+                        android:id="@+id/linear_start"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:background="@drawable/inspection_start">
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/home_group_10h"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.9"
+                android:background="#fff">
+                <RelativeLayout
+                    android:id="@+id/linear_we"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="5dp"
+                    >
+                    <com.baidu.mapapi.map.MapView
+                        android:id="@+id/mv_location"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                    </com.baidu.mapapi.map.MapView>
+                    <LinearLayout
+                        android:id="@+id/linear_start_inspection"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="22dp"
+                        android:layout_alignParentBottom="true"
+                        android:background="#33333333"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:src="@mipmap/ic_action_location"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="开始巡检"
+                            android:gravity="center_vertical"
+                            style="@style/IndexOptionUp"
+                            />
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:background="#42ACFB"
+                    android:layout_above="@id/linear_we">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="160dp"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:paddingLeft="5dp"
+                            android:orientation="horizontal">
+                            <ImageView
+                                android:id="@+id/iv_weather"
+                                android:layout_width="60dp"
+                                android:layout_height="wrap_content"
+                                android:src="@mipmap/logog"/>
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:gravity="center">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="滨旅基建"
+                                    android:textStyle="bold"
+                                    android:gravity="center"
+                                    android:textSize="20sp"/>
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="移动巡检"
+                                    android:gravity="center"
+                                    android:textSize="16sp"/>
+
+                            </LinearLayout>
+                        </LinearLayout>
+                        <TextView
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="30dp"
+                            android:layout_marginBottom="30dp"
+                            android:background="#fff"/>
+                        <LinearLayout
+                            android:layout_marginLeft="5dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1.0"
+                                android:orientation="vertical"
+                                android:gravity="center_vertical">
+                                <TextView
+                                    android:id="@+id/tv_weather_temp"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center_vertical"
+                                    android:textColor="#fff"/>
+                                <TextView
+                                    android:id="@+id/tv_weather_flee"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center_vertical"
+                                    android:textColor="#fff"/>
+                                <TextView
+                                    android:id="@+id/tv_weather_hum"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center_vertical"
+                                    android:textColor="#fff"/>
+
+                                <TextView
+                                    android:id="@+id/tv_weather_wind"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center_vertical"
+                                    android:textColor="#fff"/>
+
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1.0"
+                                android:orientation="vertical"
+                                android:gravity="center">
+                                <TextView
+                                    android:id="@+id/tv_weather_city"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="#fff"/>
+                                <TextView
+                                    android:visibility="gone"
+                                    android:id="@+id/tv_weather_alarms"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="未发布天气预警信息"
+                                    android:textColor="#fff"/>
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center">
+                                    <ImageView
+                                        android:id="@+id/iv_tmp"
+                                        android:layout_width="50dp"
+                                        android:layout_height="50dp" />
+                                </LinearLayout>
+
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+            </RelativeLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.0">
+
+                <GridView
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/gv_functions"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:numColumns="3">
+
+                </GridView>
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

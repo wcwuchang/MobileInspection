@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="83dp"
+        android:background="@drawable/edittext_normal"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:padding="3dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.0"
+                android:orientation="horizontal">
+                <TextView
+                    style="@style/hidden_manage_list_textview_style"
+                    android:text="名        称:" />
+                <TextView
+                    android:id="@+id/tv_hidden_manage_name"
+                    style="@style/hidden_manage_list_textview_style"
+                    android:layout_marginLeft="5dp"/>
+            </LinearLayout>
+            <TextView
+                style="@style/line_horizontal" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.0"
+                android:orientation="horizontal">
+                <TextView
+                    style="@style/hidden_manage_list_textview_style"
+                    android:text="数        量:" />
+                <TextView
+                    android:id="@+id/tv_hidden_manage_num"
+                    style="@style/hidden_manage_list_textview_style"
+                    android:layout_marginLeft="5dp"/>
+                <TextView
+                    android:id="@+id/tv_hidden_manage_unit"
+                    style="@style/hidden_manage_list_textview_style"
+                    android:layout_marginLeft="5dp"/>
+            </LinearLayout>
+            <TextView
+                style="@style/line_horizontal" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.0"
+                android:orientation="horizontal">
+                <TextView
+                    style="@style/hidden_manage_list_textview_style"
+                    android:text="位        置:" />
+                <TextView
+                    android:id="@+id/tv_hidden_manage_local"
+                    android:layout_marginLeft="5dp"
+                    style="@style/hidden_manage_list_textview_style" />
+            </LinearLayout>
+            <TextView
+                style="@style/line_horizontal" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.0"
+                android:orientation="horizontal">
+                <TextView
+                    style="@style/hidden_manage_list_textview_style"
+                    android:text="@string/str_hidden_manage_up_time" />
+                <TextView
+                    android:id="@+id/tv_hidden_manage_up_time"
+                    android:layout_marginLeft="5dp"
+                    style="@style/hidden_manage_list_textview_style" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/iv_hidden_manage_state"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            />
+    </RelativeLayout>
+
+</LinearLayout>

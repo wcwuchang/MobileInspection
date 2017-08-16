@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout style="@style/activity_title">
+
+        <include
+            style="@style/activity_title_include"
+            layout="@layout/layout_activity_title" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <com.baidu.mapapi.map.MapView
+            android:id="@+id/map_map"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </com.baidu.mapapi.map.MapView>
+        <LinearLayout
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            >
+            <ImageView
+                android:id="@+id/iv_location_bj"
+                android:layout_width="30dp"
+                android:layout_height="35dp"
+                android:src="@drawable/icon_biao"
+             />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/tv_location_address"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#fff"
+            android:gravity="center_vertical"
+            android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+</LinearLayout>

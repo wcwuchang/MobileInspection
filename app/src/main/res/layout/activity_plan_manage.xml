@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EDEDF2">
+
+    <LinearLayout
+        style="@style/activity_title">
+        <include layout="@layout/layout_activity_title"
+            style="@style/activity_title_include"/>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lv_plan_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="#00000000">
+
+    </ListView>
+
+</LinearLayout>

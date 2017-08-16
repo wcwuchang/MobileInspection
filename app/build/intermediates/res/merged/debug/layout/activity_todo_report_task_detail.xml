@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        style="@style/activity_title">
+        <include layout="@layout/layout_activity_title"
+            style="@style/activity_title_include"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/linear_opp"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_no"
+                android:layout_width="0dp"
+                android:layout_weight="1.0"
+                android:layout_height="match_parent"
+                android:background="@color/stop"
+                android:text="不通过"
+                android:textColor="#fff"/>
+            <Button
+                android:id="@+id/btn_yes"
+                android:layout_width="0dp"
+                android:layout_weight="1.0"
+                android:layout_height="match_parent"
+                android:background="@color/step_a"
+                android:text="通过"
+                android:textColor="#fff"/>
+        </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/linear_opp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView style="@style/line_horizontal"/>
+        <LinearLayout style="@style/hidden_trouble_layout"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingRight="10dp">
+
+                <TextView
+                    android:id="@+id/tv_deaily_detail_"
+                    style="@style/hidden_trouble_layout_text_ti"
+                    android:text="任务详情" />
+
+                <TextView
+                    android:id="@+id/tv_deaily_detail_content"
+                    style="@style/hidden_trouble_layout_text_ti"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="80dp"
+                    android:background="@drawable/bg_content"
+                    android:layout_toRightOf="@id/tv_deaily_detail_"
+                    android:textColor="@color/listview_item_textview333"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginBottom="3dp"/>
+
+            </RelativeLayout>
+        </LinearLayout>
+        <TextView style="@style/line_horizontal"/>
+        <LinearLayout
+            android:id="@+id/linear_special_contract"
+            style="@style/hidden_trouble_layout">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingRight="10dp">
+
+                <TextView
+                    android:id="@+id/tv_deaily_detail_unit"
+                    style="@style/hidden_trouble_layout_text_ti"
+                    android:text="合同名称" />
+
+                <TextView
+                    android:id="@+id/tv_deaily_detail_contract_name"
+                    style="@style/hidden_trouble_layout_text_ti"
+                    android:layout_width="match_parent"
+                    android:layout_toRightOf="@id/tv_deaily_detail_unit"
+                    android:textColor="@color/listview_item_textview333" />
+
+            </RelativeLayout>
+        </LinearLayout>
+        <TextView style="@style/line_horizontal"/>
+        <LinearLayout
+            android:id="@+id/linear_deilay_trouble"
+            style="@style/hidden_trouble_layout">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingRight="10dp">
+
+                <TextView
+                    android:id="@+id/tv_deaily_detail_maintenance"
+                    style="@style/hidden_trouble_layout_text_ti"
+                    android:text="隐患名称" />
+
+                <TextView
+                    android:id="@+id/tv_deaily_detail_trouble_name"
+                    style="@style/hidden_trouble_layout_text_ti"
+                    android:layout_width="match_parent"
+                    android:layout_toRightOf="@id/tv_deaily_detail_maintenance"
+                    android:textColor="@color/listview_item_textview333" />
+
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linear_stock"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:orientation="vertical"
+            android:background="#fff"
+            android:paddingLeft="20dp">
+            <TextView style="@style/line_horizontal"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingRight="10dp">
+
+                <TextView
+                    android:id="@+id/tv_stoack"
+                    style="@style/hidden_trouble_layout_text_ti"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_stock_unit"
+                    style="@style/hidden_trouble_layout_text_ti"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="60dp"
+                    android:textColor="@color/listview_item_textview333" />
+
+                <TextView
+                    android:id="@+id/tv_stock_num"
+                    style="@style/hidden_trouble_layout_text_ti"
+                    android:layout_width="match_parent"
+                    android:layout_toRightOf="@id/tv_stoack"
+                    android:layout_toLeftOf="@id/tv_stock_unit"
+                    android:textColor="@color/listview_item_textview333" />
+
+            </RelativeLayout>
+        </LinearLayout>
+        <TextView style="@style/line_horizontal"/>
+        <LinearLayout style="@style/hidden_trouble_layout">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingRight="10dp">
+
+                <TextView
+                    android:id="@+id/tv_deaily_detail_contact"
+                    style="@style/hidden_trouble_layout_text_ti"
+                    android:text="负  责  人" />
+
+                <TextView
+                    android:id="@+id/tv_deaily_detail_contact_name"
+                    style="@style/hidden_trouble_layout_text_ti"
+                    android:layout_width="match_parent"
+                    android:layout_toRightOf="@id/tv_deaily_detail_contact"
+                    android:textColor="@color/listview_item_textview333" />
+
+            </RelativeLayout>
+        </LinearLayout>
+        <TextView style="@style/line_horizontal"/>
+        <LinearLayout
+            android:id="@+id/linear_maintain"
+            android:visibility="gone"
+            style="@style/hidden_trouble_layout">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingRight="10dp">
+
+                <TextView
+                    android:id="@+id/tv_deaily_main"
+                    style="@style/hidden_trouble_layout_text_ti"
+                    android:text="维  修  人" />
+
+                <TextView
+                    android:id="@+id/tv_deaily_maintain_name"
+                    style="@style/hidden_trouble_layout_text_ti"
+                    android:layout_width="match_parent"
+                    android:layout_toRightOf="@id/tv_deaily_main"
+                    android:textColor="@color/listview_item_textview333" />
+
+            </RelativeLayout>
+        </LinearLayout>
+        <TextView style="@style/line_horizontal"/>
+        <LinearLayout
+            android:id="@+id/linear_deaily_detail_location"
+            style="@style/hidden_trouble_layout">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingRight="10dp">
+
+                <TextView
+                    android:id="@+id/tv_deaily_detail_date"
+                    style="@style/hidden_trouble_layout_text_ti"
+                    android:text="完成日期" />
+
+                <TextView
+                    android:id="@+id/tv_deaily_detail_location_name"
+                    style="@style/hidden_trouble_layout_text_ti"
+                    android:layout_width="match_parent"
+                    android:layout_toRightOf="@id/tv_deaily_detail_date"
+                    android:textColor="@color/listview_item_textview333" />
+
+            </RelativeLayout>
+        </LinearLayout>
+        <TextView style="@style/line_horizontal"/>
+        <LinearLayout
+            android:id="@+id/linear_jiliang"
+            style="@style/hidden_trouble_layout">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingRight="10dp">
+
+                <TextView
+                    android:id="@+id/tv_deaily_detail_jldate"
+                    style="@style/hidden_trouble_layout_text_ti"
+                    android:text="计量月份" />
+
+                <TextView
+                    android:id="@+id/tv_mon"
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="月"
+                    android:layout_alignParentRight="true"/>
+
+                <TextView
+                    android:id="@+id/tv_deaily_detail_jl_month"
+                    style="@style/hidden_trouble_layout_text_ti"
+                    android:layout_width="match_parent"
+                    android:layout_toRightOf="@id/tv_deaily_detail_jldate"
+                    android:layout_toLeftOf="@id/tv_mon"
+                    android:textColor="@color/listview_item_textview333" />
+
+            </RelativeLayout>
+        </LinearLayout>
+        <TextView style="@style/line_horizontal"/>
+        <com.tianjin.MobileInspection.customview.ScrollListView
+            android:id="@+id/slv_hidden_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </com.tianjin.MobileInspection.customview.ScrollListView>
+
+
+    </LinearLayout>
+    </ScrollView>
+    </RelativeLayout>
+</LinearLayout>

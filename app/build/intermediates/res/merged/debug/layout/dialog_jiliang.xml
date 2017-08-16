@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="320dp"
+        android:layout_height="370dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/linear_jl_dialog_heard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_jl_dialog_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/bg_content"
+                    android:gravity="center"
+                    android:textSize="16dp" />
+
+                <TextView style="@style/line_horizontal" />
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/linear_jl_dialog_foot"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView style="@style/line_horizontal" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                >
+
+                <Button
+                    android:id="@+id/btn_jl_dialog_turndown"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.0"
+                    android:text="驳回" />
+
+                <Button
+                    android:id="@+id/btn_jl_dialog_updetail"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.0"
+                    android:text="上报详情" />
+
+                <Button
+                    android:id="@+id/btn_jl_dialog_cancel"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.0"
+                    android:text="取消" />
+
+                <Button
+                    android:id="@+id/btn_jl_dialog_commit"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.0"
+                    android:text="提交" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/lv_jl_dialog_types"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/linear_jl_dialog_foot"
+            android:layout_below="@id/linear_jl_dialog_heard"
+            android:layout_marginTop="5dp" />
+
+    </RelativeLayout>
+
+</LinearLayout>

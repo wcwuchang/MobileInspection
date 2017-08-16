@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <LinearLayout
+        style="@style/activity_title">
+        <include layout="@layout/layout_activity_title"
+            style="@style/activity_title_include"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="@color/layout_background"
+        android:gravity="center"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:background="@drawable/edittext_radius_bg"
+            android:gravity="center"
+            android:layout_height="28dp">
+            <EditText
+                android:id="@+id/edt_seach"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:hint="输入关键字"
+                android:textSize="14sp"
+                android:background="@drawable/edittext_radius_bg"/>
+            <ImageView
+                android:id="@+id/iv_seach_show"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="100dp"
+                android:src="@drawable/search"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <ListView
+            android:id="@+id/country_lvcountry"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+             />
+
+        <TextView
+            android:id="@+id/title_layout_no_friends"
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:layout_gravity="right|top"
+            android:background="#E0E0E0"
+            android:gravity="center_vertical"
+            android:text="没有匹配的联系人"
+            android:textColor="#454545"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/title_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:layout_gravity="right|top"
+            android:background="#ff303030"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/title_layout_catalog"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="#E0E0E0"
+                android:paddingBottom="5dip"
+                android:paddingLeft="5dip"
+                android:paddingTop="5dip"
+                android:textColor="#454545" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/dialog"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="@mipmap/show_bg"
+            android:gravity="center"
+            android:textColor="#ffffffff"
+            android:textSize="20sp"
+            android:visibility="invisible" />
+
+        <com.tianjin.MobileInspection.customview.sortListview.SideBar
+            android:id="@+id/sidrbar"
+            android:layout_width="20dp"
+            android:layout_height="400dp"
+            android:layout_gravity="right|center"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="2dp"/>
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.baidu.mapapi.map.MapView
+        android:id="@+id/mv_map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </com.baidu.mapapi.map.MapView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="30dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="@drawable/layout_inspection_radius_bg"
+        android:layout_height="100dp"
+        >
+        <LinearLayout
+            android:id="@+id/linear_yinhuan"
+            style="@style/inspection_linearout"
+            >
+            <com.tianjin.MobileInspection.customview.CircleImg
+                android:id="@+id/ci_yinhuan"
+                style="@style/inspection_image"
+                android:src="@drawable/select_inspection_yinhuan"/>
+            <TextView
+                style="@style/inspection_textview"
+                android:text="隐患"
+                android:textColor="#fff"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linear_twocode"
+            style="@style/inspection_linearout"
+            >
+            <com.tianjin.MobileInspection.customview.CircleImg
+                android:id="@+id/ci_twocode"
+                style="@style/inspection_image"
+                android:src="@drawable/select_two_code"/>
+            <TextView
+                style="@style/inspection_textview"
+                android:text="扫一扫"
+                android:textColor="#fff"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linear_finished"
+            style="@style/inspection_linearout"
+            >
+            <com.tianjin.MobileInspection.customview.CircleImg
+                android:id="@+id/ci_finished"
+                style="@style/inspection_image"
+                android:src="@drawable/select_inspection_finish"/>
+            <TextView
+                style="@style/inspection_textview"
+                android:text="完毕"
+                android:textColor="#fff"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

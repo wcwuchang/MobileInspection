@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout style="@style/activity_title" >
+        <include
+            style="@style/activity_title_include"
+            layout="@layout/layout_activity_title" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="240dp">
+
+        <com.baidu.mapapi.map.MapView
+            android:id="@+id/mv_map"
+            android:layout_width="match_parent"
+            android:layout_height="300dp">
+
+        </com.baidu.mapapi.map.MapView>
+
+        <com.tianjin.MobileInspection.customview.CircleImg
+            android:id="@+id/ci_inspection_show_history_line"
+            android:layout_width="54dp"
+            android:layout_height="54dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="17dp"
+            android:layout_marginRight="34dp"
+            android:src="@drawable/select_inspection_history_line"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:background="#fff">
+
+                <LinearLayout style="@style/inspection_detail_layout">
+
+                    <TextView
+                        style="@style/inspection_detail_textview"
+                        android:text="合同名称" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/tv_inspection_contract_name"
+                        style="@style/inspection_detail_textview"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/listview_item_textview333" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView style="@style/line_horizontal" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#fff">
+
+                <LinearLayout
+                    style="@style/inspection_detail_layout"
+                    android:layout_height="44dp">
+
+                    <TextView
+                        style="@style/inspection_detail_textview"
+                        android:text="巡检范围" />
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical">
+
+                        <com.tianjin.MobileInspection.customview.ScrollListView
+                            android:layout_marginRight="40dp"
+                            android:id="@+id/lv_inspection_size"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:divider="#00000000" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/tv_inspection_detail_show_more"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="5dp"
+                        android:text="更多" />
+                </RelativeLayout>
+            </LinearLayout>
+            <TextView style="@style/line_horizontal" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:background="#fff">
+
+                <LinearLayout style="@style/inspection_detail_layout">
+
+                    <TextView
+                        style="@style/inspection_detail_textview"
+                        android:text="交通工具" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/tv_inspection_contract_traffic"
+                        style="@style/inspection_detail_textview"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/listview_item_textview333" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView style="@style/line_horizontal" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="80dp"
+                android:background="#fff">
+
+                <LinearLayout style="@style/inspection_detail_layout">
+
+                    <TextView
+                        style="@style/inspection_detail_textview"
+                        android:text="巡检内容" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/tv_inspection_contract_detail"
+                        style="@style/inspection_detail_textview"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/listview_item_textview333" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView style="@style/line_horizontal" />
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:paddingLeft="20dp"
+                android:id="@+id/tv_inspection_find_hidden"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#fff"
+                android:text="巡检中发现的隐患"/>
+            <TextView style="@style/line_horizontal" />
+            <com.tianjin.MobileInspection.customview.ScrollListView
+                android:id="@+id/lv_inspection_yinhuan"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:divider="#00000000"
+                >
+
+            </com.tianjin.MobileInspection.customview.ScrollListView>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

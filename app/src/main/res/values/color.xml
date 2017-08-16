@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="title">#42acfb</color>
+
+    <color name="inspection_linearBG">#1FC435</color>
+
+    <color name="layout_background">#EDEDF2</color>
+
+    <color name="listview_item_textview333">#333333</color>
+
+    <color name="listview_item_textview666">#666666</color>
+
+    <color name="choose_contract_name_rela_background">#F5FAFD</color>
+
+    <color name="contact_list_a_bg">#D8D8D8</color>
+
+    <color name="inspection_yinhuan_text">#B2B2B2</color>
+
+    <color name="text_line">#EDEDF2</color>
+
+    <color name="B2B2B2">#B2B2B2</color>
+    <color name="V333333">#333333</color>
+    <color name="V666666">#666666</color>
+    <color name="VFFB236">#FFB236</color>
+    <color name="step_b">#42ACFB</color>
+    <color name="step_a">#16CB70</color>
+
+    <color name="white">#ffffff</color>
+
+    <color name="rb_nomal">#dfdfdf</color>
+    <color name="rb_press">#11000000</color>
+
+    <color name="stop">#ff4568</color>
+</resources>

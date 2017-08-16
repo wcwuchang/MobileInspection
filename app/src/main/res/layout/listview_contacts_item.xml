@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/tv_seach_Letter"
+        style="@style/textview_second_normal_style"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@color/contact_list_a_bg"
+        android:padding="5dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp"
+            android:gravity="center">
+            <ImageView
+                android:id="@+id/iv_seach_add"
+                android:visibility="gone"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/list_add_normal"/>
+            <com.tianjin.MobileInspection.customview.CircleImg
+                android:id="@+id/ci_seach_head"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/test_head"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="5dp"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/tv_seach_name"
+                    style="@style/textview_main_normal_style"
+                    android:text="wang" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:gravity="top">
+
+                <TextView
+                    android:visibility="gone"
+                    android:id="@+id/tv_seach_company"
+                    style="@style/textview_second_normal_style"
+                    android:text="ff"
+                    android:textSize="12dp" />
+
+                <TextView
+                    android:id="@+id/tv_seach_group"
+                    style="@style/textview_second_normal_style"
+                    android:layout_height="20dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="ff"
+                    android:textSize="12dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

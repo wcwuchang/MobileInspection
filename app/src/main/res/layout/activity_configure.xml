@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"></LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:background="#fff">
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:paddingLeft="20dp"
+            android:gravity="center_vertical"
+            android:text="服务器地址"/>
+        <Spinner
+            android:id="@+id/sp_connection"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"></Spinner>
+    </LinearLayout>
+
+</LinearLayout>

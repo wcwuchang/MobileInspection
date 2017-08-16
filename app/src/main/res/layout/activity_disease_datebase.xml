@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        style="@style/activity_title">
+        <include layout="@layout/layout_activity_title"
+            style="@style/activity_title_include"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="@color/layout_background"
+        android:gravity="center"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:background="@drawable/edittext_radius_bg"
+            android:gravity="center"
+            android:layout_height="28dp">
+            <EditText
+                android:id="@+id/edt_seach"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:hint="输入关键字"
+                android:textSize="14sp"
+                android:background="@drawable/edittext_radius_bg"/>
+            <ImageView
+                android:id="@+id/iv_seach_show"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="100dp"
+                android:src="@drawable/search"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lv_diaease_select"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"/>
+
+    <com.tianjin.MobileInspection.customview.TreeListView.TreeListView
+        android:id="@+id/lv_disease_expert"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+</LinearLayout>

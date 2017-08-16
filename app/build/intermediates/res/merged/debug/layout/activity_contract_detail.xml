@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        style="@style/activity_title">
+        <include layout="@layout/layout_activity_title"
+            style="@style/activity_title_include"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:visibility="gone"
+            android:id="@+id/linear_foot"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true">
+            <RadioGroup
+                android:id="@+id/rg_contract_group"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/rb_contract_content"
+                    style="@style/bottom_radiobutton"
+                    android:text="合同内容"/>
+
+                <RadioButton
+                    android:id="@+id/rb_conyract_has_do"
+                    style="@style/bottom_radiobutton"
+                    android:text="已工作量"/>
+
+            </RadioGroup>
+        </LinearLayout>
+
+       <FrameLayout
+           android:id="@+id/frame_contract_body"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:layout_above="@id/linear_foot">
+
+       </FrameLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

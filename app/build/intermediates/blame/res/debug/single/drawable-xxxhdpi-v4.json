@@ -1,0 +1,502 @@
+[
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\inspection_finish_down.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\drawable-xxxhdpi\\inspection_finish_down.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\action_node.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\drawable-xxxhdpi\\action_node.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\list_icon1.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\drawable-xxxhdpi\\list_icon1.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\show_less.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\drawable-xxxhdpi\\show_less.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png",
+        "source": "F:\\MobileInspection\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable-xxxhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\home_group_9.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\drawable-xxxhdpi\\home_group_9.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\contract_doing.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\drawable-xxxhdpi\\contract_doing.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\list_icon2.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\drawable-xxxhdpi\\list_icon2.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\return_normal_down.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\drawable-xxxhdpi\\return_normal_down.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\list_icon_play3_down.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\drawable-xxxhdpi\\list_icon_play3_down.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\list_icon3.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\drawable-xxxhdpi\\list_icon3.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\home_group_7.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\drawable-xxxhdpi\\home_group_7.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\icon_love.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\drawable-xxxhdpi\\icon_love.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\ico_off.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\drawable-xxxhdpi\\ico_off.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\two_code.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\drawable-xxxhdpi\\two_code.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\home_group_10.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\drawable-xxxhdpi\\home_group_10.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_36dp.png",
+        "source": "F:\\MobileInspection\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_36dp.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\out.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\drawable-xxxhdpi\\out.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\list_o_new.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\drawable-xxxhdpi\\list_o_new.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\action_nodes_link.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\drawable-xxxhdpi\\action_nodes_link.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\list_line.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\drawable-xxxhdpi\\list_line.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png",
+        "source": "F:\\MobileInspection\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png",
+        "source": "F:\\MobileInspection\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable-xxxhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\list_add_normal.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\drawable-xxxhdpi\\list_add_normal.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_ic_star_black_16dp.png",
+        "source": "F:\\MobileInspection\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable-xxxhdpi-v4\\abc_ic_star_black_16dp.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\login_biaoz.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\drawable-xxxhdpi\\login_biaoz.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\list_group1.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\drawable-xxxhdpi\\list_group1.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\list_o.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\drawable-xxxhdpi\\list_o.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\two_code_down.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\drawable-xxxhdpi\\two_code_down.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\icon_messages.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\drawable-xxxhdpi\\icon_messages.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\icon_user.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\drawable-xxxhdpi\\icon_user.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\list_icon_delete_down.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\drawable-xxxhdpi\\list_icon_delete_down.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_switch_track_mtrl_alpha.9.png",
+        "source": "F:\\MobileInspection\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable-xxxhdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\list_ico_save.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\drawable-xxxhdpi\\list_ico_save.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\plan_list_xunjian.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\drawable-xxxhdpi\\plan_list_xunjian.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\list_ico_li_down.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\drawable-xxxhdpi\\list_ico_li_down.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\login_anniu.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\drawable-xxxhdpi\\login_anniu.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png",
+        "source": "F:\\MobileInspection\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable-xxxhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\list_icon5.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\drawable-xxxhdpi\\list_icon5.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\list_icon_delete.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\drawable-xxxhdpi\\list_icon_delete.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png",
+        "source": "F:\\MobileInspection\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable-xxxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\list_icon_play1_down.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\drawable-xxxhdpi\\list_icon_play1_down.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\contract_draft.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\drawable-xxxhdpi\\contract_draft.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\list_icon_play2.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\drawable-xxxhdpi\\list_icon_play2.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\plan_list_caiwu.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\drawable-xxxhdpi\\plan_list_caiwu.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\go_to.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\drawable-xxxhdpi\\go_to.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\list_ico_peple.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\drawable-xxxhdpi\\list_ico_peple.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\home_group_5.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\drawable-xxxhdpi\\home_group_5.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\home_group_8.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\drawable-xxxhdpi\\home_group_8.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\list_add_choice.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\drawable-xxxhdpi\\list_add_choice.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\list_icon1_down.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\drawable-xxxhdpi\\list_icon1_down.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\home_button_down.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\drawable-xxxhdpi\\home_button_down.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\list_new_down.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\drawable-xxxhdpi\\list_new_down.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\login_user.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\drawable-xxxhdpi\\login_user.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_48dp.png",
+        "source": "F:\\MobileInspection\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_48dp.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\contract_draft_down.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\drawable-xxxhdpi\\contract_draft_down.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\list_ico_choo.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\drawable-xxxhdpi\\list_ico_choo.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\home_group_3.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\drawable-xxxhdpi\\home_group_3.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_btn_check_to_on_mtrl_015.png",
+        "source": "F:\\MobileInspection\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable-xxxhdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\set.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\drawable-xxxhdpi\\set.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\list_line_new.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\drawable-xxxhdpi\\list_line_new.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\list_ico_li.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\drawable-xxxhdpi\\list_ico_li.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\icon_zhongdian.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\drawable-xxxhdpi\\icon_zhongdian.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\list_icon_pingjia2.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\drawable-xxxhdpi\\list_icon_pingjia2.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_16dp.png",
+        "source": "F:\\MobileInspection\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_16dp.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\home_group_2.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\drawable-xxxhdpi\\home_group_2.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\icon_qidian.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\drawable-xxxhdpi\\icon_qidian.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\list_icon3_down.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\drawable-xxxhdpi\\list_icon3_down.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\plan_list_richang.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\drawable-xxxhdpi\\plan_list_richang.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_ic_star_black_48dp.png",
+        "source": "F:\\MobileInspection\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable-xxxhdpi-v4\\abc_ic_star_black_48dp.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\login_cancel.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\drawable-xxxhdpi\\login_cancel.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\contract_maintanence_down.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\drawable-xxxhdpi\\contract_maintanence_down.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png",
+        "source": "F:\\MobileInspection\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_btn_check_to_on_mtrl_000.png",
+        "source": "F:\\MobileInspection\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable-xxxhdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\icon_daka.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\drawable-xxxhdpi\\icon_daka.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\return_normal.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\drawable-xxxhdpi\\return_normal.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\worker_location.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\drawable-xxxhdpi\\worker_location.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\inspection_finish.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\drawable-xxxhdpi\\inspection_finish.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\contract_doing_down.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\drawable-xxxhdpi\\contract_doing_down.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\add_down.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\drawable-xxxhdpi\\add_down.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\inspection_yinhuan.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\drawable-xxxhdpi\\inspection_yinhuan.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\icon_labrary.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\drawable-xxxhdpi\\icon_labrary.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\home_group_10_down.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\drawable-xxxhdpi\\home_group_10_down.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\inspection_history_line.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\drawable-xxxhdpi\\inspection_history_line.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\login_password.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\drawable-xxxhdpi\\login_password.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\home_group_4.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\drawable-xxxhdpi\\home_group_4.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\list_ico_peple_down.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\drawable-xxxhdpi\\list_ico_peple_down.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\inspection_yinhuan_down.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\drawable-xxxhdpi\\inspection_yinhuan_down.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\ico_on.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\drawable-xxxhdpi\\ico_on.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\list_icon2_down.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\drawable-xxxhdpi\\list_icon2_down.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\contract_maintanence.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\drawable-xxxhdpi\\contract_maintanence.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\location_biaoji.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\drawable-xxxhdpi\\location_biaoji.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "F:\\MobileInspection\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png",
+        "source": "F:\\MobileInspection\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\inspection_history_line_down.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\drawable-xxxhdpi\\inspection_history_line_down.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\list_icon_pingjia3.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\drawable-xxxhdpi\\list_icon_pingjia3.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\show_more.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\drawable-xxxhdpi\\show_more.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\home_group_10h.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\drawable-xxxhdpi\\home_group_10h.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\search.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\drawable-xxxhdpi\\search.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\list_icon_play1.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\drawable-xxxhdpi\\list_icon_play1.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\xin.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\drawable-xxxhdpi\\xin.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\home_group_1.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\drawable-xxxhdpi\\home_group_1.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\login_anniu_down.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\drawable-xxxhdpi\\login_anniu_down.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\list_icon_play2_down.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\drawable-xxxhdpi\\list_icon_play2_down.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\list_icon4.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\drawable-xxxhdpi\\list_icon4.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\icon_home.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\drawable-xxxhdpi\\icon_home.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\contract_finished_down.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\drawable-xxxhdpi\\contract_finished_down.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png",
+        "source": "F:\\MobileInspection\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\plan_list_zhuanxiang.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\drawable-xxxhdpi\\plan_list_zhuanxiang.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png",
+        "source": "F:\\MobileInspection\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable-xxxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\list_image_add_down.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\drawable-xxxhdpi\\list_image_add_down.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_ic_star_black_36dp.png",
+        "source": "F:\\MobileInspection\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable-xxxhdpi-v4\\abc_ic_star_black_36dp.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\home_group_6.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\drawable-xxxhdpi\\home_group_6.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png",
+        "source": "F:\\MobileInspection\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable-xxxhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\list_icon_play3.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\drawable-xxxhdpi\\list_icon_play3.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\icon_biao.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\drawable-xxxhdpi\\icon_biao.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\contract_finished.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\drawable-xxxhdpi\\contract_finished.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\phone.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\drawable-xxxhdpi\\phone.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\list_icon_pingjia1.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\drawable-xxxhdpi\\list_icon_pingjia1.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\list_ico_no.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\drawable-xxxhdpi\\list_ico_no.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png",
+        "source": "F:\\MobileInspection\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable-xxxhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\add.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\drawable-xxxhdpi\\add.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png",
+        "source": "F:\\MobileInspection\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable-xxxhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\list_new.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\drawable-xxxhdpi\\list_new.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\list_image_add.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\drawable-xxxhdpi\\list_image_add.png"
+    }
+]

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linear_maintenance_deaily_title"
+        style="@style/activity_title">
+        <include layout="@layout/layout_activity_title"
+            style="@style/activity_title_include"/>
+    </LinearLayout>
+
+    <RadioGroup
+        android:id="@+id/rg_type_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="#22000000"
+        android:layout_alignParentBottom="true">
+        <RadioButton
+            android:id="@+id/rb_deaily_doing"
+            android:text="未完成"
+            style="@style/bottom_radiobutton"
+            />
+        <RadioButton
+            android:id="@+id/rb_deaily_finished"
+            style="@style/bottom_radiobutton"
+            android:text="已完成"/>
+    </RadioGroup>
+
+    <FrameLayout
+        android:layout_below="@id/linear_maintenance_deaily_title"
+        android:layout_above="@id/rg_type_bottom"
+        android:id="@+id/frame_inspection_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+
+
+
+</RelativeLayout>

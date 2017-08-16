@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "F:\\MobileInspection\\twodimensioncodescanner\\build\\intermediates\\res\\merged\\release\\raw\\beep.ogg",
+        "source": "F:\\MobileInspection\\twodimensioncodescanner\\src\\main\\res\\raw\\beep.ogg"
+    },
+    {
+        "merged": "F:\\MobileInspection\\twodimensioncodescanner\\build\\intermediates\\res\\merged\\release\\raw\\realm_properties",
+        "source": "F:\\MobileInspection\\twodimensioncodescanner\\src\\main\\res\\raw\\realm_properties"
+    },
+    {
+        "merged": "F:\\MobileInspection\\twodimensioncodescanner\\build\\intermediates\\res\\merged\\release\\raw\\sound.mp3",
+        "source": "F:\\MobileInspection\\twodimensioncodescanner\\src\\main\\res\\raw\\sound.mp3"
+    }
+]

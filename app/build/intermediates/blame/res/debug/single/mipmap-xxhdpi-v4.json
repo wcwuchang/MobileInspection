@@ -1,0 +1,70 @@
+[
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\welcome.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\mipmap-xxhdpi\\welcome.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\logo_bg.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\mipmap-xxhdpi\\logo_bg.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\xunchataizhang.jpg",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\mipmap-xxhdpi\\xunchataizhang.jpg"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\hetongtaizhang.jpg",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\mipmap-xxhdpi\\hetongtaizhang.jpg"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\logo.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\mipmap-xxhdpi\\logo.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\step_b.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\mipmap-xxhdpi\\step_b.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\track_kuaijin.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\mipmap-xxhdpi\\track_kuaijin.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\xunjian.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\mipmap-xxhdpi\\xunjian.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\track_huotui.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\mipmap-xxhdpi\\track_huotui.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\logog.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\mipmap-xxhdpi\\logog.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_launcher.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\icon_add.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\mipmap-xxhdpi\\icon_add.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_action_location.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_action_location.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\show_bg.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\mipmap-xxhdpi\\show_bg.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\yidongxunjian.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\mipmap-xxhdpi\\yidongxunjian.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\step_a.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\mipmap-xxhdpi\\step_a.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_action_dice1.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_action_dice1.png"
+    }
+]

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout style="@style/activity_title">
+        <include layout="@layout/layout_activity_title"
+            style="@style/activity_title_include"/>
+    </LinearLayout>
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/linear_todo_table"
+            android:layout_width="match_parent"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp"
+            android:layout_height="50dp"
+            android:background="#fff"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/linear_todo_hidden_trouble"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.0"
+                android:background="@color/inspection_linearBG">
+                <TextView
+                    android:id="@+id/tv_todo_hidden_trouble"
+                    style="@style/todo_title_textview"
+                    android:text="隐患"/>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/linear_todo_special"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.0">
+                <TextView
+                    android:id="@+id/tv_todo_special"
+                    style="@style/todo_title_textview"
+                    android:text="专项"/>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/linear_todo_inspection"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.0">
+                <TextView
+                    android:id="@+id/tv_todo_inspection"
+                    style="@style/todo_title_textview"
+                    android:text="巡检"/>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/linear_todo_deaily"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.0">
+                <TextView
+                    android:id="@+id/tv_todo_deaily"
+                    style="@style/todo_title_textview"
+                    android:text="日常"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/frame_todo_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </FrameLayout>
+    </RelativeLayout>
+
+</LinearLayout>

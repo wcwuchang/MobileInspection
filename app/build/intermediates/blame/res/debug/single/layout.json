@@ -1,0 +1,722 @@
+[
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_new_inspection.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\activity_new_inspection.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\gridview_index_option_item.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\gridview_index_option_item.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "F:\\MobileInspection\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listview_maintance_item1.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\listview_maintance_item1.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_special_maintenance_upload.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\activity_special_maintenance_upload.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_hidden_trouble_detail.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\activity_hidden_trouble_detail.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "F:\\MobileInspection\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_contacts.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\activity_contacts.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_menu.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\layout_menu.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_fujian_add.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\dialog_fujian_add.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_show_latlon.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\activity_show_latlon.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_contract_data.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\fragment_contract_data.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_evaluate_detail.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\fragment_evaluate_detail.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listview_standing_book_item.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\listview_standing_book_item.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listview_todo_list_item.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\listview_todo_list_item.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_todo_report_task_detail.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\activity_todo_report_task_detail.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_report_approve.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\activity_report_approve.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listview_approve_item.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\listview_approve_item.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mis_activity_default.xml",
+        "source": "F:\\MobileInspection\\app\\build\\intermediates\\exploded-aar\\MobileInspection\\multi-image-selector\\unspecified\\res\\layout\\mis_activity_default.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listview_contract_manage_detail_item.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\listview_contract_manage_detail_item.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listview_contacts_item.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\listview_contacts_item.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
+        "source": "F:\\MobileInspection\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\notification_template_lines.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_contract_content.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\fragment_contract_content.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_maintanence_issued.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\dialog_maintanence_issued.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_deaily.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\activity_deaily.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "F:\\MobileInspection\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_update.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\dialog_update.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_user_info.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\activity_user_info.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "F:\\MobileInspection\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_plan_detail.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\activity_plan_detail.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listview_evaluate_manage_item.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\listview_evaluate_manage_item.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_todo_inspection.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\activity_todo_inspection.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "F:\\MobileInspection\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_yinhuan_detail.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\layout_yinhuan_detail.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_welcome.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\activity_welcome.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listview_inspection_choose_itemlist_item.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\listview_inspection_choose_itemlist_item.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_inspection.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\activity_inspection.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listview_inspection_execution.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\listview_inspection_execution.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "F:\\MobileInspection\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_show_title.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\layout_show_title.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_hidden_spinner_item.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\layout_hidden_spinner_item.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listview_deaily_naintanence_item.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\listview_deaily_naintanence_item.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "F:\\MobileInspection\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_configure.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\activity_configure.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_new_inspection_chose.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\activity_new_inspection_chose.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_leave_late.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\dialog_leave_late.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
+        "source": "F:\\MobileInspection\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_inspection_detail.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\activity_inspection_detail.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_inspection_choose.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\activity_inspection_choose.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_special.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\activity_special.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "F:\\MobileInspection\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "F:\\MobileInspection\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
+        "source": "F:\\MobileInspection\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_capture.xml",
+        "source": "F:\\MobileInspection\\app\\build\\intermediates\\exploded-aar\\MobileInspection\\twodimensioncodescanner\\unspecified\\res\\layout\\activity_capture.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_main_body.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\layout_main_body.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_plan_main_detail.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\activity_plan_main_detail.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "F:\\MobileInspection\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_new_maintanence.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\activity_new_maintanence.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listview_deaily_list_item.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\listview_deaily_list_item.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "F:\\MobileInspection\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_plan_manage.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\activity_plan_manage.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_refresh_head.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\layout_refresh_head.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_special_detail.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\activity_special_detail.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listview_maintenance_flow_item.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\listview_maintenance_flow_item.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_time_picker_layout.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\view_time_picker_layout.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "F:\\MobileInspection\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_contract_has_do.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\fragment_contract_has_do.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listview_contract_manage_item.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\listview_contract_manage_item.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_view.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\dialog_view.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_fujian_upload.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\activity_fujian_upload.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listview_fujian_list.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\listview_fujian_list.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listview_motor_maintenance_item.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\listview_motor_maintenance_item.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_todo_inspection_detail.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\activity_todo_inspection_detail.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_reporting_scheme.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\activity_reporting_scheme.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listview_maintenance_item.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\listview_maintenance_item.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "F:\\MobileInspection\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listview_maintenance_trouble_list_item.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\listview_maintenance_trouble_list_item.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listview_plan_manage.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\listview_plan_manage.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listview_plan_content.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\listview_plan_content.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listview_hidden_managelist_item.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\listview_hidden_managelist_item.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\gridview_standing_book_item.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\gridview_standing_book_item.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_approve.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\activity_approve.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_new_yh_detail.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\activity_new_yh_detail.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_hidden_time.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\fragment_hidden_time.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_deaily_maintenance_upload.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\activity_deaily_maintenance_upload.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
+        "source": "F:\\MobileInspection\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\notification_template_big_media.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listview_inspection_choose_item.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\listview_inspection_choose_item.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_contract_manage_detail.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\activity_contract_manage_detail.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listview_hidden_trouble_list_item.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\listview_hidden_trouble_list_item.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_maintenance.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\activity_maintenance.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "F:\\MobileInspection\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_new_special_task.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\activity_new_special_task.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_activity_title.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\layout_activity_title.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_new_inspection_plan.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\activity_new_inspection_plan.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "F:\\MobileInspection\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_approve_commit.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\dialog_approve_commit.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_standing_book_manage.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\activity_standing_book_manage.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_to_do_list.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\activity_to_do_list.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_inspection_approve.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\dialog_inspection_approve.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listview_pull_item.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\listview_pull_item.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listview_contacts_group_item.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\listview_contacts_group_item.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "F:\\MobileInspection\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\upush_notification.xml",
+        "source": "F:\\MobileInspection\\app\\build\\intermediates\\exploded-aar\\MobileInspection\\PushSDK\\unspecified\\res\\layout\\upush_notification.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mis_list_item_image.xml",
+        "source": "F:\\MobileInspection\\app\\build\\intermediates\\exploded-aar\\MobileInspection\\multi-image-selector\\unspecified\\res\\layout\\mis_list_item_image.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "F:\\MobileInspection\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "F:\\MobileInspection\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listview_inspection_list_item.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\listview_inspection_list_item.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mis_cmp_customer_actionbar.xml",
+        "source": "F:\\MobileInspection\\app\\build\\intermediates\\exploded-aar\\MobileInspection\\multi-image-selector\\unspecified\\res\\layout\\mis_cmp_customer_actionbar.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "F:\\MobileInspection\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_show_has_chosed.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\fragment_show_has_chosed.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "F:\\MobileInspection\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_plan_new.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\activity_plan_new.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_disease_datebase.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\activity_disease_datebase.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "F:\\MobileInspection\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_rgist.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\activity_rgist.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_dialog_pic.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\layout_dialog_pic.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listview_new_inspection_chose_item.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\listview_new_inspection_chose_item.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_approve_button.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\layout_approve_button.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_hidden_trouble_list.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\activity_hidden_trouble_list.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_new_deilay_task.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\activity_new_deilay_task.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_inspection.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\fragment_inspection.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tree_view_item_layout.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\tree_view_item_layout.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_play_type_list.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\activity_play_type_list.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_light_num.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\dialog_light_num.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_new_hidden_trouble.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\activity_new_hidden_trouble.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_notification_view.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\layout_notification_view.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_download.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\dialog_download.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "F:\\MobileInspection\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "F:\\MobileInspection\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "F:\\MobileInspection\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\gridview_chose_image_item.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\gridview_chose_image_item.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "F:\\MobileInspection\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "F:\\MobileInspection\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "F:\\MobileInspection\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_notification.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\layout_notification.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_a_index.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\activity_a_index.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_show_chosed.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\activity_show_chosed.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_date_picker_layout.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\view_date_picker_layout.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_deaily_detail.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\activity_deaily_detail.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listview_schedule_item.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\listview_schedule_item.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "F:\\MobileInspection\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "F:\\MobileInspection\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listview_contacts_group_childer_item.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\listview_contacts_group_childer_item.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_test.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\activity_test.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_jiliang.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\dialog_jiliang.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mis_list_item_camera.xml",
+        "source": "F:\\MobileInspection\\app\\build\\intermediates\\exploded-aar\\MobileInspection\\multi-image-selector\\unspecified\\res\\layout\\mis_list_item_camera.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "F:\\MobileInspection\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listview_contract_item.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\listview_contract_item.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_track_play_back.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\activity_track_play_back.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_concluding_observations.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\dialog_concluding_observations.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_evaluate_detail.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\activity_evaluate_detail.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
+        "source": "F:\\MobileInspection\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_hidden_trouble_approve.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\activity_hidden_trouble_approve.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_contract_detail.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\activity_contract_detail.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listview_todo_inspection_item.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\listview_todo_inspection_item.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listview_chose_hidden_type_item.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\listview_chose_hidden_type_item.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_inspection_approve.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\activity_inspection_approve.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_contacts_details.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\activity_contacts_details.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_userinfo_edit.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\activity_userinfo_edit.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_contract_manage.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\activity_contract_manage.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_plan_content.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\fragment_plan_content.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_standing_book_list.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\activity_standing_book_list.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_scanner.xml",
+        "source": "F:\\MobileInspection\\app\\build\\intermediates\\exploded-aar\\MobileInspection\\twodimensioncodescanner\\unspecified\\res\\layout\\activity_scanner.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listview_plan_maintenance_item.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\listview_plan_maintenance_item.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_evaluate_manage.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\activity_evaluate_manage.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_approve.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\dialog_approve.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listview_evaluate_list_item.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\listview_evaluate_list_item.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_load_more.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\layout_load_more.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "F:\\MobileInspection\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_plan_issued.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\dialog_plan_issued.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listview_plan_manage_item.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\listview_plan_manage_item.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_chose_location.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\activity_chose_location.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_date_time_picker_dialog.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\view_date_time_picker_dialog.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mis_list_item_folder.xml",
+        "source": "F:\\MobileInspection\\app\\build\\intermediates\\exploded-aar\\MobileInspection\\multi-image-selector\\unspecified\\res\\layout\\mis_list_item_folder.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_hidden_list.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\fragment_hidden_list.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "F:\\MobileInspection\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
+        "source": "F:\\MobileInspection\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\notification_media_action.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_location_track.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\activity_location_track.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listview_inspection_detail_yinhuan_item.xml",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\layout\\listview_inspection_detail_yinhuan_item.xml"
+    }
+]

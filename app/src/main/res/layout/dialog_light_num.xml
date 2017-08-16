@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="#10000000"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="请输入路灯号的最大编号"
+            android:gravity="center"/>
+
+        <TextView
+            style="@style/line_horizontal" />
+
+        <EditText
+            android:id="@+id/edt_max"
+            android:layout_width="180dp"
+            android:layout_height="60dp"
+            android:background="#fff"
+            android:gravity="center"
+            android:inputType="numberSigned"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp">
+            <Button
+                android:id="@+id/btn_cancel"
+                android:layout_width="0dp"
+                android:layout_height="35dp"
+                android:layout_weight="1.0"
+                android:text="取消"
+                android:textSize="14sp"
+                android:textColor="#333"/>
+            <Button
+                android:id="@+id/btn_sure"
+                android:layout_width="0dp"
+                android:layout_height="35dp"
+                android:layout_weight="1.0"
+                android:text="确定"
+                android:textSize="14sp"
+                android:textColor="#333"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

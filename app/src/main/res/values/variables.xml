@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="str_todo_procDefKey">procDefKey</string> //待办事项列表请求的key
+    <string name="str_todo_inspecting_approval">inspecting_approval</string>//待办事项列表的 巡检
+
+</resources>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/linear_inspection_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/inspection_detail_hidden_radius_bg"
+            >
+
+            <TextView
+                android:id="@+id/tv_inspection_name"
+                style="@style/listview_text_style"
+                android:layout_height="wrap_content"
+                android:text="125555" />
+
+            <TextView
+                android:id="@+id/tv_inspection_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:text="452"
+                android:textColor="@color/listview_item_textview666"
+                android:textSize="14sp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginBottom="5dp"
+                android:gravity="center_vertical">
+
+                <LinearLayout
+                    android:id="@+id/linear_head"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+                    <com.tianjin.MobileInspection.customview.CircleImg
+                        android:id="@+id/iv_inspection_head"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:src="@mipmap/main_bg" />
+                </LinearLayout>
+
+
+                <TextView
+                    android:id="@+id/tv_inspection_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:gravity="center"
+                    android:text="2016年11月21日"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tv_inspection_worker_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toLeftOf="@id/tv_inspection_time"
+                    android:layout_toRightOf="@id/linear_head"
+                    android:gravity="center_vertical"
+                    android:text="12548" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

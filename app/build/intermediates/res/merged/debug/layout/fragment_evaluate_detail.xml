@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/linear_evaluate_header"
+        android:layout_width="match_parent"
+        android:background="@color/step_a"
+        android:layout_height="400dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="评价等级"
+                android:textSize="16dp"
+                android:textColor="#fff"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="140dp"
+            android:gravity="center">
+        <com.tianjin.MobileInspection.customview.CircleImg
+            android:id="@+id/iv_evaluate_step"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@mipmap/step_a"
+            />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <com.tianjin.MobileInspection.customview.ScrollListView
+        android:id="@+id/lv_evaluate_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>
+</ScrollView>

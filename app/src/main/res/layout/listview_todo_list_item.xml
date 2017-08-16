@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <ImageView
+            android:id="@+id/iv_todo_item_goto"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="15dp"
+            android:src="@drawable/go_to"/>
+        <ImageView
+            android:id="@+id/iv_todo_item_head"
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
+            />
+        <TextView
+            android:id="@+id/tv_todo_item_name"
+            android:layout_toLeftOf="@id/iv_todo_item_goto"
+            android:layout_toRightOf="@id/iv_todo_item_head"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="5555"
+            android:gravity="center_vertical"
+            android:textSize="16sp"
+            android:textColor="@color/V333333"
+
+            />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

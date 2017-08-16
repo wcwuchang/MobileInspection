@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">移动巡检</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="str_something_sure">确&#160;&#160;&#160;&#160;定</string>
+    <string name="str_something_cancel">取&#160;&#160;&#160;&#160;消</string>
+
+    <string name="str_regist">注册</string>
+    <string name="str_regist_cancel">取消</string>
+    <string name="str_regist_password">密 码</string>
+    <string name="str_regist_take_photo">拍&#160;&#160;&#160;&#160;照</string>
+	<string name="str_regist_gallery">图&#160;&#160;&#160;&#160;库</string>
+    <string name="str_regist_confidentiality_issues">保密问题</string>
+    <string name="str_regist_hit_confidentiality_issues">请输入保密问题，答案用于找回密码</string>
+    <string name="str_regist_confidentiality_issues_key">答&#160;&#160;&#160;&#160;案</string>
+    <string name="str_retrieve_new_password">新密码</string>
+    <string name="str_retrieve_new_password_again">再次输入</string>
+    <string name="str_main_activity_open_left">openleft</string>
+    <string name="str_main_activity_open_right">openright</string>
+
+    <string name="pull_to_refresh">下拉刷新</string>
+    <string name="release_to_refresh">释放立即刷新</string>
+    <string name="refreshing">正在刷新...</string>
+    <string name="refresh_succeed">刷新成功</string>
+    <string name="refresh_fail">刷新失败</string>
+    <string name="pullup_to_load">上拉加载更多</string>
+    <string name="release_to_load">释放立即加载</string>
+    <string name="loading">正在加载...</string>
+    <string name="load_succeed">加载成功</string>
+    <string name="load_fail">加载失败</string>
+
+    <!--首页-->
+    <string name="str_main_title">移动巡检</string>
+
+    <string name="str_index_option1">巡检列表</string>
+    <string name="str_index_option2">待办事项</string>
+    <string name="str_index_option3">通讯录</string>
+    <string name="str_index_option4">评价管理</string>
+    <string name="str_index_option5">合同管理</string>
+    <string name="str_index_option6">台账管理</string>
+    <string name="str_index_option7">计划维修</string>
+    <string name="str_index_option8">机动维修</string>
+    <string name="str_index_option9">计划管理</string>
+    <string name="str_index_option9_1">隐患管理</string>
+
+    <!--登录页-->
+    <string name="str_login_welcome">移动巡检</string>
+    <string name="str_login_name">用户名</string>
+    <string name="str_login_password">请输入密码</string>
+    <string name="str_login">登&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;录</string>
+    <string name="str_login_lost_password">忘记密码</string>
+
+    <string name="str_com_name">天津滨海旅游区基础设施建设有限公司</string>
+
+    <!--合同管理-->
+    <string name="str_contract_manage_title">合同管理</string>
+
+    <!--计划管理列表-->
+    <string name="str_plan_manage_title">计划管理列表</string>
+
+    <!--巡检列表-->
+    <string name="str_inspection_list">巡检列表</string>
+    <string name="str_inspection_doing">巡检中</string>
+    <string name="str_inspection_finished">巡检完毕</string>
+    <!--选择巡检列表-->
+    <string name="str_inspection_choose">选择巡检列表</string>
+    <string name="str_show_more">更多</string>
+    <string name="str_show_litile">收起</string>
+
+    <!--联系人详情-->
+    <string name="str_contact_info">个人信息</string>
+    <string name="str_contact_photo">电话</string>
+    <string name="str_contact_email">邮箱</string>
+    <string name="str_contact_address">地址</string>
+
+    <!--个人信息-->
+    <string name="str_user_head">头像</string>
+    <string name="str_user_name">姓名</string>
+    <string name="str_user_photo">电话</string>
+    <string name="str_user_email">邮箱</string>
+    <string name="str_user_address">地址</string>
+
+    <string name="str_load">正在获取数据</string>
+    <string name="str_up">正在上传数据</string>
+
+    <!-- 隐患管理列表 -->
+    <string name="str_hidden_manage_title_1">审核通过未分配任务</string>
+    <string name="str_hidden_manage_title_2">已分配任务</string>
+
+    <string name="str_hidden_manage_name">名称</string>
+    <string name="str_hidden_manage_num">数                量</string>
+    <string name="str_hidden_manage_local">位                置</string>
+    <string name="str_hidden_manage_up_time">上报时间:</string>
+
+
+</resources>

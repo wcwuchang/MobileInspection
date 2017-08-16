@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        style="@style/activity_title">
+        <include layout="@layout/layout_activity_title"
+            style="@style/activity_title_include"/>
+    </LinearLayout>
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="11dp"
+        android:gravity="center_vertical"
+        android:layout_height="54dp">
+        <EditText
+            android:id="@+id/edt_chang_detail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#fff"
+            android:paddingLeft="10dp"/>
+        <ImageView
+            android:id="@+id/iv_change_cancel"
+            android:layout_width="21dp"
+            android:visibility="gone"
+            android:layout_height="match_parent"
+            android:src="@drawable/login_cancel"
+            android:layout_marginRight="26dp"
+            android:layout_alignParentRight="true"/>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

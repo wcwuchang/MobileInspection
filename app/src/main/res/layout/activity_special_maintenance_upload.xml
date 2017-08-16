@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical">
+
+    <LinearLayout style="@style/activity_title">
+
+        <include
+            style="@style/activity_title_include"
+            layout="@layout/layout_activity_title" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/btn_maintenance"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:text="提交"
+            android:textColor="#fff"
+            android:background="@drawable/select_btn_login" />
+    <ScrollView
+        android:layout_above="@id/btn_maintenance"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/layout_background">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <TextView style="@style/line_horizontal" />
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#fff">
+
+                <EditText
+                    android:id="@+id/edt_hidden_trouble_detail"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:background="#fff"
+                    android:gravity="left|top"
+                    android:hint="请输入任务描述"
+                    android:lines="10"
+                    android:paddingTop="5dp"
+                    android:paddingLeft="20dp"
+                    android:layout_marginBottom="5dp"
+                    />
+
+                <com.tianjin.MobileInspection.customview.NobarGridView
+                    android:id="@+id/gv_chose_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    android:clipToPadding="false"
+                    android:horizontalSpacing="@dimen/mis_space_size"
+                    android:numColumns="4"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:verticalSpacing="@dimen/mis_space_size" />
+            </LinearLayout>
+            <TextView style="@style/line_horizontal" />
+            <LinearLayout style="@style/hidden_trouble_layout"
+                android:layout_marginTop="10dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingRight="10dp">
+
+                    <TextView
+                        android:id="@+id/tv_loc"
+                        style="@style/hidden_trouble_layout_text_ti"
+                        android:text="维修日期" />
+
+                    <ImageView
+                        android:id="@+id/iv_loc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="15dp"
+                        android:src="@drawable/list_ico_li_down" />
+
+                    <TextView
+                        android:id="@+id/tv_maintenance_date"
+                        style="@style/hidden_trouble_layout_text_ti"
+                        android:layout_width="match_parent"
+                        android:layout_toLeftOf="@id/iv_loc"
+                        android:layout_toRightOf="@id/tv_loc"
+                        android:textColor="@color/listview_item_textview333" />
+
+                </RelativeLayout>
+            </LinearLayout>
+            <TextView style="@style/line_horizontal" />
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#fff"
+                android:orientation="vertical">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp">
+                    <TextView
+                        android:layout_marginLeft="20dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:text="维修详情"/>
+                    <LinearLayout
+                        android:id="@+id/linear_special_add_maintenance"
+                        android:layout_alignParentRight="true"
+                        android:layout_width="50dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="20dp"
+                        android:gravity="center">
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="match_parent"
+                            android:src="@mipmap/icon_add"
+                            />
+                    </LinearLayout>
+                </RelativeLayout>
+                <TextView
+                   style="@style/line_horizontal" />
+                <LinearLayout
+                    android:id="@+id/linear_detail_maintenance_trouble"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <ListView
+                        android:id="@+id/slv_spection_maintenance_trouble"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scrollbars="none"/>
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+    </RelativeLayout>
+</LinearLayout>

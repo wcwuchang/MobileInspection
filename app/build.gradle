@@ -1,0 +1,75 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "24.0.0"
+
+    defaultConfig {
+        applicationId "com.tianjin.MobileInspection"
+        minSdkVersion 19
+        targetSdkVersion 23
+
+        versionCode 1
+        versionName "V 20170726"
+    }
+
+    buildTypes {
+        debug {
+            buildConfigField "boolean", "LOG_DEBUG", "true"
+        }
+        release {
+            minifyEnabled false
+            buildConfigField "boolean", "LOG_DEBUG", "false"
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+    }
+
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/NOTICE.txt'
+    }
+}
+
+dependencies {
+    compile project(':PushSDK')
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    testCompile 'junit:junit:4.12'
+    compile 'com.makeramen:roundedimageview:2.2.1'
+    compile 'com.github.zhaokaiqiang.klog:library:0.0.1'
+    compile 'com.android.support:appcompat-v7:23.1.1'
+    compile 'com.loopj.android:android-async-http:1.4.9'
+    compile 'com.google.android.gms:play-services-appindexing:8.1.0'
+    compile files('libs/org.xutils.jar')
+    compile files('libs/Volley.jar')
+    compile files('libs/nineoldandroids-2.4.0.jar')
+    compile files('libs/systembartint-1.0.4.jar')
+    compile project(':multi-image-selector')
+    compile project(':twodimensioncodescanner')
+    compile files('libs/gson-2.2.1.jar')
+    compile files('libs/mpchartlib.jar')
+    compile files('libs/hellocharts-library-1.5.8.jar')
+    compile files('libs/BaiduTraceSDK_v3_0_1.jar')
+    compile files('libs/bos-android-sdk-1.0.2.jar')
+    compile files('libs/baidumapapi_base_v4_3_1.jar')
+    compile files('libs/baidumapapi_map_v4_3_1.jar')
+    compile files('libs/baidumapapi_radar_v4_3_1.jar')
+    compile files('libs/baidumapapi_search_v4_3_1.jar')
+    compile files('libs/baidumapapi_util_v4_3_1.jar')
+    compile files('libs/locSDK_6.13.jar')
+    compile project(':PushSDK')
+    compile files('libs/umeng-analytics-v5.5.3.jar')
+    compile files('libs/httpmime-4.3.6.jar')
+}

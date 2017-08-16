@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:orientation="vertical"
+        android:background="@drawable/layout_radius_bg">
+
+        <TextView
+            android:id="@+id/tv_fujian_add_img"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.0"
+            android:text="图片"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:background="#fff"/>
+        <TextView
+            style="@style/line_horizontal"/>
+        <TextView
+            android:id="@+id/tv_fujian_add_file"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.0"
+            android:text="其他文件"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:background="#fff"/>
+        <TextView
+            style="@style/line_horizontal"/>
+        <TextView
+            android:id="@+id/tv_fujian_add_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.0"
+            android:text="取消"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:background="#fff"/>
+
+    </LinearLayout>
+
+</LinearLayout>

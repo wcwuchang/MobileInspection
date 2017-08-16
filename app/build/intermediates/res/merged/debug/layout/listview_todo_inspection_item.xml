@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="#fff"
+            android:gravity="center_vertical">
+
+            <LinearLayout
+                android:id="@+id/linear_todo_inspection_receiver"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/btn_todo_receiver"
+                    android:layout_width="60dp"
+                    android:layout_height="30dp"
+                    android:gravity="center"
+                    android:background="@color/inspection_linearBG"
+                    android:text="签收"
+                    android:textColor="#fff" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/linear_task_name"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/tv_task_name"
+                    android:layout_width="60dp"
+                    android:layout_height="30dp"
+                    android:gravity="center"
+                    android:background="@color/inspection_linearBG"
+                    android:textSize="12sp"
+                    android:textColor="#fff" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_todo_name"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_toLeftOf="@id/linear_todo_inspection_receiver"
+                android:gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:textColor="@color/V333333"
+                android:textSize="16dp"
+                />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:visibility="gone"
+            android:id="@+id/linear_emerg_type"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#fff"
+            android:orientation="vertical">
+            <TextView
+                style="@style/line_horizontal" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/tv_type_name"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="紧急类型:"
+                android:paddingLeft="30dp"
+                android:gravity="center_vertical"/>
+            <TextView
+                android:id="@+id/tv_emec_type"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:paddingLeft="5dp"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout style="@style/activity_title">
+
+        <include
+            style="@style/activity_title_include"
+            layout="@layout/layout_activity_title" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/linear_maintenance_commit"
+            android:layout_width="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_height="46dp">
+        <Button
+            android:id="@+id/btn_maintenance_commit"
+            android:layout_width="0dp"
+            android:layout_weight="1.0"
+            android:layout_height="46dp"
+            android:background="@color/title"
+            android:text="提交方案"
+            android:textColor="#fff"/>
+            <Button
+                android:id="@+id/btn_immediately_maintenance"
+                android:layout_width="0dp"
+                android:layout_weight="1.0"
+                android:layout_height="46dp"
+                android:background="@color/step_a"
+                android:text="立即维修"
+                android:textColor="#fff"/>
+        </LinearLayout>
+
+    <ScrollView
+        android:layout_above="@id/linear_maintenance_commit"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/layout_background"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                style="@style/hidden_trouble_layout"
+                android:layout_height="55dp">
+                <TextView
+                    style="@style/hidden_trouble_layout_text_ti"
+                    android:text="合        同"/>
+                <Spinner
+                    android:id="@+id/sp_contract"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:background="@mipmap/spinner_normal">
+
+                </Spinner>
+            </LinearLayout>
+            <TextView style="@style/line_horizontal" />
+            <LinearLayout style="@style/hidden_trouble_layout">
+
+                <RelativeLayout
+                    android:id="@+id/relat_hidden_chose_contact"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingRight="10dp">
+
+                    <TextView
+                        android:id="@+id/tv_called"
+                        style="@style/hidden_trouble_layout_text_ti"
+                        android:text="负  责  人" />
+
+                    <ImageView
+                        android:id="@+id/iv_peple"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentRight="true"
+                        android:src="@drawable/list_ico_peple" />
+
+                    <TextView
+                        android:id="@+id/tv_contact"
+                        style="@style/hidden_trouble_layout_text_ti"
+                        android:layout_width="match_parent"
+                        android:layout_toLeftOf="@id/iv_peple"
+                        android:layout_toRightOf="@id/tv_called"
+                        android:textColor="@color/listview_item_textview333" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <TextView style="@style/line_horizontal" />
+            <LinearLayout
+                style="@style/hidden_trouble_layout"
+                android:layout_height="55dp">
+                <TextView
+                    style="@style/hidden_trouble_layout_text_ti"
+                    android:text="完成日期"/>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingRight="10dp">
+                    <ImageView
+                        android:id="@+id/iv_date"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentRight="true"
+                        android:src="@drawable/list_ico_li_down" />
+
+                    <TextView
+                        android:id="@+id/tv_finish_date"
+                        style="@style/hidden_trouble_layout_text_ti"
+                        android:layout_width="match_parent"
+                        android:layout_toLeftOf="@id/iv_date"
+                        android:textColor="@color/listview_item_textview333" />
+                </RelativeLayout>
+            </LinearLayout>
+            <TextView style="@style/line_horizontal" />
+            <LinearLayout
+                style="@style/hidden_trouble_layout"
+                android:layout_height="55dp">
+                <TextView
+                    style="@style/hidden_trouble_layout_text_ti"
+                    android:text="计量月份"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingRight="10dp"
+                    android:gravity="center_vertical">
+
+                    <Spinner
+                        android:id="@+id/sp_jiliang_date"
+                        style="@style/hidden_trouble_layout_text_ti"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:background="@mipmap/spinner_normal"
+                        android:textColor="@color/listview_item_textview333" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <TextView style="@style/line_horizontal" />
+            <LinearLayout style="@style/hidden_trouble_layout"
+                android:layout_height="wrap_content">
+                <TextView
+                    style="@style/hidden_trouble_layout_text_ti"
+                    android:text="维修方式" />
+
+                <EditText
+                    android:id="@+id/edt_maintenance_type"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="80dp"
+                    android:background="@drawable/bg_content"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginBottom="3dp"
+                    android:layout_marginRight="30dp"/>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+    </RelativeLayout>
+
+</LinearLayout>

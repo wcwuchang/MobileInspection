@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout style="@style/contarct_data_layout">
+
+                    <LinearLayout style="@style/contarct_data_child_layout">
+
+                        <TextView
+                            style="@style/inspection_detail_textview"
+                            android:gravity="left|center_vertical"
+                            android:text="合同名称:" />
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="10dp">
+
+                        <TextView
+                            android:id="@+id/tv_contract_detail_name"
+                            style="@style/inspection_detail_textview"
+                            android:gravity="center_vertical"
+                            android:textColor="@color/listview_item_textview333" />
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <TextView style="@style/line_horizontal" />
+
+                <LinearLayout style="@style/contarct_data_layout">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.0">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical"
+                            android:text="开始时间:" />
+
+                        <TextView
+                            android:id="@+id/tv_contract_begain_time"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical"
+                            android:paddingLeft="5dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.0">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical"
+                            android:text="结束时间:" />
+
+                        <TextView
+                            android:id="@+id/tv_contract_end_time"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical"
+                            android:paddingLeft="5dp" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <TextView style="@style/line_horizontal" />
+
+                <LinearLayout style="@style/contarct_data_layout">
+
+                    <LinearLayout style="@style/contarct_data_child_layout">
+
+                        <TextView
+                            style="@style/inspection_detail_textview"
+                            android:gravity="left|center_vertical"
+                            android:text="单位名称:" />
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="10dp">
+
+                        <TextView
+                            android:id="@+id/tv_contract_unit_name"
+                            style="@style/inspection_detail_textview"
+                            android:gravity="center_vertical"
+                            android:textColor="@color/listview_item_textview333" />
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <TextView style="@style/line_horizontal" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:text="合同已完成情况:" />
+
+                <RelativeLayout
+                    android:id="@+id/relat_chose_month"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:paddingRight="5dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentRight="true"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="月份:" />
+
+                        <Spinner
+                            android:id="@+id/sp_month"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="3dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="3dp"
+                            android:background="@mipmap/spinner_normal">
+
+                        </Spinner>
+                    </LinearLayout>
+                </RelativeLayout>
+            </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <include
+                    layout="@layout/listview_contract_item"
+                    android:layout_width="match_parent"
+                    android:layout_height="46dp" />
+
+
+                <com.tianjin.MobileInspection.customview.ScrollListView
+                    android:id="@+id/lv_contract_data"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"></com.tianjin.MobileInspection.customview.ScrollListView>
+            </LinearLayout>
+
+            <TextView style="@style/line_horizontal" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

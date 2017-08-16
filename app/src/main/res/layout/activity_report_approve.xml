@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        style="@style/activity_title">
+        <include layout="@layout/layout_activity_title"
+            style="@style/activity_title_include"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/linear_opp"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_no"
+                android:layout_width="0dp"
+                android:layout_weight="1.0"
+                android:layout_height="match_parent"
+                android:background="@color/stop"
+                android:text="不同意"
+                android:textColor="#fff"/>
+            <Button
+                android:id="@+id/btn_yes"
+                android:layout_width="0dp"
+                android:layout_weight="1.0"
+                android:layout_height="match_parent"
+                android:background="@color/step_a"
+                android:text="同意"
+                android:textColor="#fff"/>
+        </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/linear_opp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <LinearLayout
+                android:id="@+id/linear_hidden_trouble_num"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView style="@style/line_horizontal" />
+
+                <LinearLayout style="@style/hidden_trouble_layout"
+                    android:paddingLeft="3dp">
+
+                    <RelativeLayout
+                        android:id="@+id/relat_hidden_type_num"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        >
+
+                        <TextView
+                            android:id="@+id/tv_yh_detail_name"
+                            style="@style/hidden_trouble_layout_text_ti"
+                            android:text=""
+                            android:layout_width="120dp"/>
+
+                        <TextView
+                            android:id="@+id/tv_yh_detail_unit"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginRight="5dp"
+                            android:gravity="center"
+                            android:text="" />
+
+                        <TextView
+                            android:id="@+id/edt_yh_detail_size"
+                            style="@style/hidden_trouble_layout_text_ti"
+                            android:layout_width="match_parent"
+                            android:layout_marginRight="65dp"
+                            android:layout_toLeftOf="@id/tv_yh_detail_unit"
+                            android:layout_toRightOf="@id/tv_yh_detail_name"
+                            android:background="#fff"
+                            android:inputType="numberDecimal"
+                            android:textColor="@color/listview_item_textview333" />
+
+                    </RelativeLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/edt_report"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:background="@drawable/bg_content"
+                android:layout_marginBottom="5dp"
+                android:gravity="top"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="附件"/>
+            <TextView
+                style="@style/line_horizontal"/>
+
+            <com.tianjin.MobileInspection.customview.ScrollListView
+                android:id="@+id/lv_file"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </com.tianjin.MobileInspection.customview.ScrollListView>
+
+        </LinearLayout>
+
+    </ScrollView>
+    </RelativeLayout>
+</LinearLayout>

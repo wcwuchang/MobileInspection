@@ -1,0 +1,54 @@
+[
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\image_default_error.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\mipmap-xhdpi\\image_default_error.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\loading.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\mipmap-xhdpi\\loading.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\pull_icon_big.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\mipmap-xhdpi\\pull_icon_big.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\ic_red_r.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\mipmap-xhdpi\\ic_red_r.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\load_failed.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\mipmap-xhdpi\\load_failed.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\refresh_failed.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\mipmap-xhdpi\\refresh_failed.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\contact_detail_bg.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\mipmap-xhdpi\\contact_detail_bg.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\ic_launcher.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\image_non_existent_1.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\mipmap-xhdpi\\image_non_existent_1.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\pullup_icon_big.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\mipmap-xhdpi\\pullup_icon_big.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\load_succeed.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\mipmap-xhdpi\\load_succeed.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\refreshing.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\mipmap-xhdpi\\refreshing.png"
+    },
+    {
+        "merged": "F:\\MobileInspection\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\refresh_succeed.png",
+        "source": "F:\\MobileInspection\\app\\src\\main\\res\\mipmap-xhdpi\\refresh_succeed.png"
+    }
+]

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        style="@style/activity_title">
+        <include layout="@layout/layout_activity_title"
+            style="@style/activity_title_include"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/hidden_foot">
+
+            <RadioGroup
+                android:id="@+id/rg_hidden_group"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/rb_hidden_wite"
+                    style="@style/bottom_radiobutton"
+                    android:text="待维修"/>
+
+                <RadioButton
+                    android:id="@+id/rb_hidden_doing"
+                    style="@style/bottom_radiobutton"
+                    android:text="已分配"/>
+                <RadioButton
+                    android:visibility="gone"
+                    android:id="@+id/rb_hidden_time"
+                    style="@style/bottom_radiobutton"
+                    android:text="时间图"/>
+            </RadioGroup>
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/frame_hidden_body"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/hidden_foot">
+
+        </FrameLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

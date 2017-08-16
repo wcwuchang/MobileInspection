@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <string-array name="date">
+        <item>阿妹</item>
+        <item>阿郎</item>
+        <item>陈奕迅</item>
+        <item>周杰伦</item>
+        <item>曾一鸣</item>
+        <item>成龙</item>
+        <item>王力宏</item>
+        <item>汪峰</item>
+        <item>王菲</item>
+        <item>那英</item>
+        <item>张伟</item>
+        <item>张学友</item>
+        <item>李德华</item>
+        <item>郑源</item>
+        <item>白水水</item>
+        <item>白天不亮</item>
+        <item>陈龙</item>
+        <item>陈丽丽</item>
+        <item>哈林</item>
+        <item>高进</item>
+        <item>高雷</item>
+        <item>阮今天</item>
+        <item>龚琳娜</item>
+        <item>苏醒</item>
+        <item>苏永康</item>
+        <item>陶喆</item>
+        <item>沙宝亮</item>
+        <item>宋冬野</item>
+        <item>宋伟</item>
+        <item>袁成杰</item>
+        <item>戚薇</item>
+        <item>齐大友</item>
+        <item>齐天大圣</item>
+        <item>品冠</item>
+        <item>吴克群</item>
+        <item>BOBO</item>
+        <item>Jobs</item>
+        <item>动力火车</item>
+        <item>伍佰</item>
+        <item>#蔡依林</item>
+        <item>$797835344$</item>
+        <item>Jack</item>
+        <item>~夏先生</item>
+    </string-array>
+
+    <string-array name="connection">
+        <item>服务器</item>
+        <item>公司</item>
+        <item>家</item>
+    </string-array>
+
+    <string-array name="month">
+        <item>1月</item>
+        <item>2月</item>
+        <item>3月</item>
+        <item>4月</item>
+        <item>5月</item>
+        <item>6月</item>
+        <item>7月</item>
+        <item>8月</item>
+        <item>9月</item>
+        <item>10月</item>
+        <item>11月</item>
+        <item>12月</item>
+
+    </string-array>
+
+    <string-array name="road">
+        <item>安正路</item>
+        <item>海旭道</item>
+        <item>中央大道</item>
+        <item>海晨道</item>
+        <item>平安路</item>
+        <item>碧水道</item>
+        <item>海博道</item>
+        <item>玉林道</item>
+        <item>美林道</item>
+    </string-array>
+
+    <string-array name="road_num">
+        <item>001</item>
+        <item>002</item>
+        <item>003</item>
+        <item>004</item>
+        <item>005</item>
+        <item>006</item>
+        <item>007</item>
+        <item>008</item>
+        <item>009</item>
+    </string-array>
+
+    <string-array name="hidden_num">
+        <item>人行道</item>
+        <item>车行道</item>
+        <item>侧石</item>
+        <item>窨井设施</item>
+        <item>照明设施</item>
+        <item>交通设施</item>
+        <item>道路附属设施</item>
+        <item>夜景灯光</item>
+    </string-array>
+
+    <string-array name="inspection_type">
+        <item>一般</item>
+        <item>紧急</item>
+        <item>管理</item>
+    </string-array>
+
+
+    <!-- 评价测试数据  -->
+    <string-array name="unit">
+        <item>巡检单位</item>
+        <item>维修单位</item>
+        <item>养管单位</item>
+    </string-array>
+
+    <string-array name="unit_type">
+        <item>xunjian</item>
+        <item>weixiu</item>
+        <item>yangguan</item>
+    </string-array>
+
+    <string-array name="evaluate_month">
+        <item>2017.03</item>
+        <item>2017.04</item>
+        <item>2017.05</item>
+        <item>2017.06</item>
+    </string-array>
+
+    <string-array name="xunjian">
+        <item>巡检完成率</item>
+        <item>巡检及时率</item>
+        <item>巡检合格率</item>
+        <item>巡检覆盖率</item>
+    </string-array>
+
+    <string-array name="xunjian_1">
+        <item>98%</item>
+        <item>95%</item>
+        <item>90%</item>
+        <item>97%</item>
+    </string-array>
+
+    <string-array name="weixiu">
+        <item>维修完成率</item>
+        <item>维修及时率</item>
+        <item>维修返工率</item>
+        <item>维修合格率</item>
+    </string-array>
+    <string-array name="weixiu_1">
+        <item>100%</item>
+        <item>92%</item>
+        <item>4%</item>
+        <item>96%</item>
+    </string-array>
+
+    <string-array name="yangguan">
+        <item>审批及时率</item>
+        <item>审批合格率</item>
+        <item>巡检审批及时率</item>
+    </string-array>
+    <string-array name="yangguan_1">
+        <item>100%</item>
+        <item>100%</item>
+        <item>100%</item>
+    </string-array>
+
+    <!-- 评价测试数据  -->
+
+</resources>

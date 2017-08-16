@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:id="@+id/tv_deaily_date"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:gravity="center_vertical"
+            android:textSize="12sp"
+            android:paddingLeft="15dp"/>
+        <RelativeLayout
+            android:background="@android:color/white"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <LinearLayout
+                android:visibility="gone"
+                android:id="@+id/linear_go"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="15dp"
+                android:layout_alignParentRight="true"
+                >
+            <ImageView
+                android:id="@+id/iv_goto"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/go_to"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_toLeftOf="@id/linear_go"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="15dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_inspection_name"
+                    style="@style/listview_text_style"
+                    android:layout_height="50dp"
+                    android:text="125555" />
+                <TextView
+                    android:id="@+id/tv_inspection_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="30dp"
+                    android:text="452"
+                    android:textColor="@color/listview_item_textview666"
+                    android:textSize="14sp"
+                    android:paddingRight="3dp"
+                    android:layout_marginBottom="5dp"/>
+            </LinearLayout>
+
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

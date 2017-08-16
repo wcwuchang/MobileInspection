@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--联系人详情-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        style="@style/activity_title">
+        <include layout="@layout/layout_activity_title"
+            style="@style/activity_title_include"/>
+    </LinearLayout>
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/tv_contact_detail_up"
+            android:layout_width="match_parent"
+            android:layout_height="121dp"
+            android:background="@color/title"/>
+        <LinearLayout
+            android:layout_marginTop="121dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#fff"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.0">
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.0"
+                    android:orientation="vertical"
+                    android:gravity="center_vertical">
+                    <TextView
+                        android:id="@+id/tv_contact_deatil_name"
+                        style="@style/textview_main_normal_style"
+                        android:textSize="22dp"/>
+                    <TextView
+                        android:id="@+id/tv_contact_deatil_job"
+                        style="@style/textview_second_normal_style"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/contact_detail_layout_style">
+                <TextView
+                    style="@style/textview_second_normal_style"
+                    android:text="@string/str_contact_info"
+                    />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/relat_call_number"
+                style="@style/contact_detail_layout_style">
+                <LinearLayout
+                    style="@style/linearlayout_center_vertical">
+                    <TextView
+                        android:id="@+id/tv_contact_phone"
+                        style="@style/textview_main_normal_style"
+                        />
+                    <TextView
+                        android:layout_marginTop="3dp"
+                        style="@style/textview_second_normal_style"
+                        android:text="@string/str_contact_photo"/>
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/iv_contact_sms"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="20dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="20dp"
+                    android:src="@drawable/xin"/>
+                <ImageView
+                    android:id="@+id/iv_contact_phone"
+                    android:layout_toLeftOf="@id/iv_contact_sms"
+                    android:layout_width="20dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="20dp"
+                    android:src="@drawable/phone"/>
+
+            </RelativeLayout>
+
+            <LinearLayout
+                style="@style/contact_detail_layout_style">
+                <LinearLayout
+                    style="@style/linearlayout_center_vertical">
+                    <TextView
+                        android:id="@+id/tv_contact_email"
+                        style="@style/textview_main_normal_style"
+                        />
+                    <TextView
+                        android:layout_marginTop="3dp"
+                        style="@style/textview_second_normal_style"
+                        android:text="@string/str_contact_email"/>
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <com.tianjin.MobileInspection.customview.CircleImg
+            android:padding="2dp"
+            android:layout_width="114dp"
+            android:layout_height="114dp"
+            android:layout_marginTop="64dp"
+            android:layout_marginLeft="50dp"
+            android:src="@mipmap/contact_detail_bg"
+            />
+
+        <com.tianjin.MobileInspection.customview.CircleImg
+            android:id="@+id/ci_contact_detail_head"
+            android:padding="2dp"
+            android:layout_width="108dp"
+            android:layout_height="108dp"
+            android:layout_marginTop="67dp"
+            android:layout_marginLeft="53dp"
+            android:src="@drawable/test_head"
+            />
+
+
+
+
+
+    </RelativeLayout>
+
+</LinearLayout>

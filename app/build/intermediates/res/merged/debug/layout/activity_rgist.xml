@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_regist"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="20dp"
+        android:layout_weight="1.0"
+        android:gravity="center" >
+
+        <ImageView
+            android:id="@+id/img_regist_header"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:contentDescription="@string/app_name"
+            android:src="@mipmap/ic_launcher" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2.5"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_height="40dp"
+            style="@style/regist_layout" >
+
+            <EditText
+                android:id="@+id/edt_regist_name"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="@string/str_login_name"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_height="40dp"
+            style="@style/regist_layout" >
+
+            <EditText
+                android:id="@+id/edt_regist_password"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="@string/str_regist_password"
+                android:textSize="12sp"
+                android:inputType="textPassword"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_height="40dp"
+            style="@style/regist_layout" >
+
+            <EditText
+                android:id="@+id/edt_regist_confidentiality_issues"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="@string/str_regist_hit_confidentiality_issues"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_height="40dp"
+            style="@style/regist_layout">
+
+            <EditText
+                android:id="@+id/edt_regist_confidentiality_issues_key"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="@string/str_regist_confidentiality_issues_key"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="10dp"
+            style="@style/regist_layout" >
+
+            <Button
+                android:id="@+id/btn_regist_sure"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="30dp"
+                android:background="#006ef7"
+                android:text="@string/str_regist"
+                android:textColor="#ffffff"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/btn_regist_cancel"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="30dp"
+                android:layout_marginStart="40dp"
+                android:background="#006ef7"
+                android:text="@string/str_regist_cancel"
+                android:textColor="#ffffff"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

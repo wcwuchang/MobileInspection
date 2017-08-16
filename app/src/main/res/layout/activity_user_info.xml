@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/contact_list_a_bg"
+    android:orientation="vertical">
+
+    <LinearLayout style="@style/activity_title">
+
+        <include
+            style="@style/activity_title_include"
+            layout="@layout/layout_activity_title" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="17dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/linear_user_head"
+                    style="@style/linearlayout_userinfo_center_vertical"
+                    android:layout_height="96dp"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/str_user_head" />
+
+                    <RelativeLayout
+                        style="@style/RelativeLayout_userinfo_center_vertical"
+                        android:gravity="center_vertical">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_alignParentRight="true"
+                            android:gravity="center_vertical">
+
+                            <com.tianjin.MobileInspection.customview.CircleImg
+                                android:id="@+id/ci_user_head"
+                                android:layout_width="74dp"
+                                android:layout_height="74dp"
+                                android:src="@drawable/test_head" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:src="@drawable/go_to" />
+                        </LinearLayout>
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <TextView style="@style/line_horizontal" />
+
+                <LinearLayout
+                    android:id="@+id/linear_user_name"
+                    style="@style/linearlayout_userinfo_center_vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/str_user_name" />
+
+                    <RelativeLayout
+                        style="@style/RelativeLayout_userinfo_center_vertical"
+                        android:gravity="center_vertical">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_alignParentRight="true"
+                            android:gravity="center_vertical">
+
+                            <TextView
+                                android:id="@+id/tv_user_name"
+                                style="@style/textview_main_normal_style" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:src="@drawable/go_to" />
+                        </LinearLayout>
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <TextView style="@style/line_horizontal" />
+
+                <LinearLayout
+                    android:id="@+id/linear_user_phone"
+                    style="@style/linearlayout_userinfo_center_vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/str_user_photo" />
+
+                    <RelativeLayout
+                        style="@style/RelativeLayout_userinfo_center_vertical"
+                        android:gravity="center_vertical">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_alignParentRight="true"
+                            android:gravity="center_vertical">
+
+                            <TextView
+                                android:id="@+id/tv_user_phone"
+                                style="@style/textview_second_normal_style" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:src="@drawable/go_to" />
+                        </LinearLayout>
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <TextView style="@style/line_horizontal" />
+
+                <LinearLayout
+                    android:id="@+id/linear_user_email"
+                    style="@style/linearlayout_userinfo_center_vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/str_user_email" />
+
+                    <RelativeLayout
+                        style="@style/RelativeLayout_userinfo_center_vertical"
+                        android:gravity="center_vertical">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_alignParentRight="true"
+                            android:gravity="center_vertical">
+
+                            <TextView
+                                android:id="@+id/tv_user_email"
+                                style="@style/textview_second_normal_style" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:src="@drawable/go_to" />
+                        </LinearLayout>
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <TextView style="@style/line_horizontal" />
+
+                <LinearLayout
+                    android:id="@+id/linear_user_address"
+                    style="@style/linearlayout_userinfo_center_vertical"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/str_user_address" />
+
+                    <RelativeLayout
+                        style="@style/RelativeLayout_userinfo_center_vertical"
+                        android:gravity="center_vertical">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_alignParentRight="true"
+                            android:gravity="center_vertical">
+
+                            <TextView
+                                android:id="@+id/tv_user_address"
+                                style="@style/textview_second_normal_style"
+                                android:text="江苏省南京市江宁区诚信大道2200号" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:src="@drawable/go_to" />
+                        </LinearLayout>
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <TextView style="@style/line_horizontal" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:layout_marginTop="10dp">
+                <RelativeLayout
+                    android:id="@+id/relat_light_max_num"
+                    style="@style/linearlayout_userinfo_center_vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:text="路灯号编号最大取值"/>
+
+                    <TextView
+                        android:id="@+id/tv_light_max_num"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:text="100"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="20dp"/>
+
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone"
+                android:layout_marginTop="17dp">
+
+                <LinearLayout
+                    android:id="@+id/linear_map_process"
+                    style="@style/linearlayout_userinfo_center_vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="纠偏轨迹"
+                        android:textSize="18sp"/>
+
+                    <RelativeLayout
+                        style="@style/RelativeLayout_userinfo_center_vertical"
+                        android:gravity="center_vertical">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_alignParentRight="true"
+                            android:gravity="center_vertical">
+
+                            <Switch
+                                android:id="@+id/switch_open_process"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:checked="false"
+                                style="@style/switch_style"
+                                android:switchMinWidth="60dp"
+                                android:switchPadding="10dp" />
+                        </LinearLayout>
+
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <TextView style="@style/line_horizontal" />
+
+                <LinearLayout
+                    android:visibility="gone"
+                    android:id="@+id/linear_map_process_chose"
+                    style="@style/linearlayout_userinfo_center_vertical">
+
+                    <CheckBox
+                        android:id="@+id/cb_denoise"
+                        android:layout_weight="1.0"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="去燥"
+                        android:textColor="@color/step_b"
+                        />
+                    <CheckBox
+                        android:id="@+id/cb_vacuate"
+                        android:layout_weight="1.0"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="抽稀"
+                        android:textColor="@color/step_b"
+                        />
+                    <CheckBox
+                        android:id="@+id/cb_mapmatch"
+                        android:layout_weight="1.0"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="绑路"
+                        android:textColor="@color/step_b"
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

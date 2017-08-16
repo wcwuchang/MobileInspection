@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        style="@style/line_horizontal"/>
+    <LinearLayout style="@style/hidden_trouble_layout"
+        >
+
+        <RelativeLayout
+            android:id="@+id/relat_hidden_chose_location"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingRight="10dp">
+
+            <TextView
+                android:id="@+id/tv_yh_detail_name"
+                style="@style/hidden_trouble_layout_text_ti"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/tv_yh_detail_unit"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="5dp"
+                android:text=""
+                android:gravity="center"
+                />
+
+            <EditText
+                android:id="@+id/edt_yh_detail_size"
+                style="@style/hidden_trouble_layout_text_ti"
+                android:layout_width="match_parent"
+                android:layout_marginRight="65dp"
+                android:layout_toLeftOf="@id/iv_loc"
+                android:layout_toRightOf="@id/tv_yh_detail_name"
+                android:hint="输入具体数值"
+                android:background="#fff"
+                android:inputType="numberDecimal"
+                android:textColor="@color/listview_item_textview333" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

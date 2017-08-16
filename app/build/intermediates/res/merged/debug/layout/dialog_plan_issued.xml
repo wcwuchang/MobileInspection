@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+
+    <LinearLayout
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:background="#33333333"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/tv_plan_name"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_margin="5dp"
+            android:textSize="18sp"
+            android:gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_dialog_detail"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.0"
+                android:background="#FFB236"
+                android:textColor="#fff"
+                android:text="查看详情"/>
+            <TextView
+                android:layout_width="5dp"
+                android:layout_height="match_parent" />
+            <Button
+                android:id="@+id/btn_dialog_issued"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.0"
+                android:text="下发计划维修"
+                android:textColor="#fff"
+                android:background="#1FC435"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

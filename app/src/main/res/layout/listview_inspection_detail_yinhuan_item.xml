@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/layout_background">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="14dp"
+        android:paddingRight="14dp"
+        android:background="#ffffff"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp">
+            <TextView
+                android:id="@+id/tv_inspection_yinhuan_name"
+                style="@style/inspection_detail_textview"
+                android:textColor="@color/listview_item_textview333"
+                android:gravity="center_vertical"
+                android:text="路灯"/>
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/tv_inspection_yinhuan_worker"
+                style="@style/inspection_list_yinhuan_text"
+                android:gravity="center_vertical"
+                android:text="李达"/>
+            <TextView
+                android:id="@+id/tv_inspection_yinhuan_date"
+                style="@style/inspection_list_yinhuan_text"
+                android:gravity="center_vertical"
+                android:layout_alignParentRight="true"
+                android:text="2016年12月5日"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

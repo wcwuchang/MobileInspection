@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "F:\\MobileInspection\\twodimensioncodescanner\\build\\intermediates\\res\\merged\\androidTest\\debug\\raw\\sound.mp3",
+        "source": "F:\\MobileInspection\\twodimensioncodescanner\\build\\intermediates\\bundles\\debug\\res\\raw\\sound.mp3"
+    },
+    {
+        "merged": "F:\\MobileInspection\\twodimensioncodescanner\\build\\intermediates\\res\\merged\\androidTest\\debug\\raw\\realm_properties",
+        "source": "F:\\MobileInspection\\twodimensioncodescanner\\build\\intermediates\\bundles\\debug\\res\\raw\\realm_properties"
+    },
+    {
+        "merged": "F:\\MobileInspection\\twodimensioncodescanner\\build\\intermediates\\res\\merged\\androidTest\\debug\\raw\\beep.ogg",
+        "source": "F:\\MobileInspection\\twodimensioncodescanner\\build\\intermediates\\bundles\\debug\\res\\raw\\beep.ogg"
+    }
+]

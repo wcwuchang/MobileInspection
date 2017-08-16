@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout style="@style/activity_title">
+        <include
+            style="@style/activity_title_include"
+            layout="@layout/layout_activity_title" />
+    </LinearLayout>
+
+    <com.tianjin.MobileInspection.customview.pullReflashView.PullToRefreshLayout
+        android:id="@+id/prelat_layout"
+        style="@style/pulltorefreshlayout_style">
+
+        <include layout="@layout/layout_refresh_head"></include>
+
+        <com.tianjin.MobileInspection.customview.pullReflashView.PullableListView
+            android:id="@+id/lv_pullreflash"
+            style="@style/pullablelistview_style">
+
+        </com.tianjin.MobileInspection.customview.pullReflashView.PullableListView>
+
+        <include layout="@layout/layout_load_more"></include>
+    </com.tianjin.MobileInspection.customview.pullReflashView.PullToRefreshLayout>
+
+</LinearLayout>

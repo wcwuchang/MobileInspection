@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        style="@style/activity_title">
+        <include layout="@layout/layout_activity_title"
+            style="@style/activity_title_include"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="@color/layout_background"
+        android:gravity="center">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="28dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/edittext_radius_bg"
+            android:gravity="center"
+            android:focusable="true"
+            android:focusableInTouchMode="true">
+
+            <EditText
+                android:id="@+id/edt_seach"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/edittext_radius_bg"
+                android:gravity="center"
+                android:hint="输入关键字"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/iv_seach_show"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="100dp"
+                android:src="@drawable/search" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.tianjin.MobileInspection.customview.pullReflashView.PullToRefreshLayout
+            android:id="@+id/prelat_layout"
+            style="@style/pulltorefreshlayout_style">
+
+            <include layout="@layout/layout_refresh_head"></include>
+
+            <com.tianjin.MobileInspection.customview.pullReflashView.PullableListView
+                android:id="@+id/lv_pullreflash"
+                style="@style/pullablelistview_style">
+
+            </com.tianjin.MobileInspection.customview.pullReflashView.PullableListView>
+
+            <include layout="@layout/layout_load_more"></include>
+        </com.tianjin.MobileInspection.customview.pullReflashView.PullToRefreshLayout>
+
+        <TextView
+            android:id="@+id/tv_no_seach"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginLeft="15dp"
+            android:text="无符合查询条件的数据" />
+    </RelativeLayout>
+</LinearLayout>

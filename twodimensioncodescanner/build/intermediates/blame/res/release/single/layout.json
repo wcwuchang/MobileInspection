@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "F:\\MobileInspection\\twodimensioncodescanner\\build\\intermediates\\res\\merged\\release\\layout\\activity_capture.xml",
+        "source": "F:\\MobileInspection\\twodimensioncodescanner\\src\\main\\res\\layout\\activity_capture.xml"
+    },
+    {
+        "merged": "F:\\MobileInspection\\twodimensioncodescanner\\build\\intermediates\\res\\merged\\release\\layout\\activity_scanner.xml",
+        "source": "F:\\MobileInspection\\twodimensioncodescanner\\src\\main\\res\\layout\\activity_scanner.xml"
+    }
+]
